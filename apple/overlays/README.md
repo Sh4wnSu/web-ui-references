@@ -1,13 +1,14 @@
 # overlays
-Apple-inspired Web design references; use system typography, neutral surfaces, semantic accent, continuous-looking corners, restrained motion and visible focus. See [gallery](../../examples/ui-system/index.html) for selected original examples, not every listed component. Upstream entries are discovery references, not verified component availability or vendored source.
+Apple 风格组件分类。统一系统字体、中性色、语义强调色、柔和圆角、克制动效及可见焦点。
+[内部示例](../../examples/ui-system/index.html#overlays)（仅覆盖部分条目）。
 
-|Component|用途|资源|
-|---|---|---|
-|Dialog|模态窗口|[glasscn](https://glasscn.app/docs)|
-|Alert Dialog|确认框|[applecn](https://applecn.vercel.app/docs)|
-|Sheet|抽屉|[vaul](https://github.com/emilkowalski/vaul)|
-|Action Sheet|操作面板|[applecn](https://applecn.vercel.app/docs)|
-|Popover|气泡|[website-glass](https://websiteglass.com/docs)|
-|Tooltip|提示|[radix](https://www.radix-ui.com/primitives/docs/overview/introduction)|
-|Hover Card|悬停预览|[radix](https://www.radix-ui.com/primitives/docs/overview/introduction)|
-|Inspector|检查器|[glasscn](https://glasscn.app/docs)|
+|组件|用途|
+|---|---|
+|Dialog|模态窗口|
+|Alert Dialog|确认框|
+|Sheet|抽屉|
+|Action Sheet|操作面板|
+|Popover|气泡|
+|Tooltip|提示|
+|Hover Card|悬停预览|
+|Inspector|检查器|
