@@ -22,3 +22,5 @@ C Professional Workspace：紧凑侧栏、顶部工具栏、下划线二级标�
 Tab 高 32–44px，分段 30–36px，文字 13–15px，水平 padding 12–20px，容器 3–4px，选中圆角 7–10px 或胶囊，下划线 2px，滑动 180–280ms，阴影 0 1px 4px #00000014。
 以上为 Web 建议，不是苹果官方固定尺寸。玻璃为 CSS 近似，不是真实折射。
 [源码资源](source-catalog.md) · [交互图库](../../examples/navigation/index.html) · [Tokens](../../design-tokens/navigation.css)
+
+[Spring 动效与侧栏动画编排](motion/README.md)
