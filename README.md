@@ -41,3 +41,6 @@ Web UI 设计参考知识库：设计原则、实现规范、Design Tokens 与�
 
 ## 胶囊滑块设计体系
 [设计与实现](apple/capsule-controls/README.md) · [交互图库](examples/capsule-controls/index.html) · [Tokens](design-tokens/capsule.css)
+
+## 表格设计体系
+[Apple 风格表格](apple/tables/README.md) · [13 种示例](examples/tables/index.html) · [Tokens](design-tokens/table.css)
