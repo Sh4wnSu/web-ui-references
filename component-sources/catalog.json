@@ -2,941 +2,471 @@
   {
     "category": "forms",
     "name": "Input",
-    "zh": "单行输入",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "单行输入"
   },
   {
     "category": "forms",
     "name": "Search",
-    "zh": "搜索框",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "搜索框"
   },
   {
     "category": "forms",
     "name": "Textarea",
-    "zh": "多行输入",
-    "source": "glasscn",
-    "url": "https://glasscn.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "多行输入"
   },
   {
     "category": "forms",
     "name": "Password",
-    "zh": "密码",
-    "source": "react-aria",
-    "url": "https://react-spectrum.adobe.com/react-aria/",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "密码"
   },
   {
     "category": "forms",
     "name": "Autocomplete",
-    "zh": "自动完成",
-    "source": "base-ui",
-    "url": "https://base-ui.com/react/overview/quick-start",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "自动完成"
   },
   {
     "category": "forms",
     "name": "Token Field",
-    "zh": "标签输入",
-    "source": "react-aria",
-    "url": "https://react-spectrum.adobe.com/react-aria/",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "标签输入"
   },
   {
     "category": "forms",
     "name": "OTP",
-    "zh": "验证码",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "验证码"
   },
   {
     "category": "forms",
     "name": "Number Field",
-    "zh": "数字输入",
-    "source": "react-aria",
-    "url": "https://react-spectrum.adobe.com/react-aria/",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "数字输入"
   },
   {
     "category": "forms",
     "name": "Field",
-    "zh": "校验",
-    "source": "base-ui",
-    "url": "https://base-ui.com/react/overview/quick-start",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "校验"
   },
   {
     "category": "forms",
     "name": "Rich Text",
-    "zh": "富文本",
-    "source": "tiptap",
-    "url": "https://github.com/ueberdosis/tiptap",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "富文本"
   },
   {
     "category": "selection-controls",
     "name": "Switch",
-    "zh": "开关",
-    "source": "glasscn",
-    "url": "https://glasscn.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "开关"
   },
   {
     "category": "selection-controls",
     "name": "Checkbox",
-    "zh": "复选",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "复选"
   },
   {
     "category": "selection-controls",
     "name": "Radio",
-    "zh": "单选",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "单选"
   },
   {
     "category": "selection-controls",
     "name": "Slider",
-    "zh": "数值滑杆",
-    "source": "website-glass",
-    "url": "https://websiteglass.com/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "数值滑杆"
   },
   {
     "category": "selection-controls",
     "name": "Range Slider",
-    "zh": "双端区间",
-    "source": "radix",
-    "url": "https://www.radix-ui.com/primitives/docs/overview/introduction",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "双端区间"
   },
   {
     "category": "selection-controls",
     "name": "Stepper",
-    "zh": "步进",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "步进"
   },
   {
     "category": "selection-controls",
     "name": "Select",
-    "zh": "下拉",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "下拉"
   },
   {
     "category": "selection-controls",
     "name": "Combobox",
-    "zh": "组合框",
-    "source": "base-ui",
-    "url": "https://base-ui.com/react/overview/quick-start",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "组合框"
   },
   {
     "category": "selection-controls",
     "name": "Date Picker",
-    "zh": "日期",
-    "source": "react-aria",
-    "url": "https://react-spectrum.adobe.com/react-aria/",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "日期"
   },
   {
     "category": "selection-controls",
     "name": "Time Picker",
-    "zh": "时间",
-    "source": "react-aria",
-    "url": "https://react-spectrum.adobe.com/react-aria/",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "时间"
   },
   {
     "category": "selection-controls",
     "name": "Color Picker",
-    "zh": "颜色",
-    "source": "react-aria",
-    "url": "https://react-spectrum.adobe.com/react-aria/",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "颜色"
   },
   {
     "category": "selection-controls",
     "name": "Rating",
-    "zh": "评分",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "评分"
   },
   {
     "category": "overlays",
     "name": "Dialog",
-    "zh": "模态窗口",
-    "source": "glasscn",
-    "url": "https://glasscn.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "模态窗口"
   },
   {
     "category": "overlays",
     "name": "Alert Dialog",
-    "zh": "确认框",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "确认框"
   },
   {
     "category": "overlays",
     "name": "Sheet",
-    "zh": "抽屉",
-    "source": "vaul",
-    "url": "https://github.com/emilkowalski/vaul",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "抽屉"
   },
   {
     "category": "overlays",
     "name": "Action Sheet",
-    "zh": "操作面板",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "操作面板"
   },
   {
     "category": "overlays",
     "name": "Popover",
-    "zh": "气泡",
-    "source": "website-glass",
-    "url": "https://websiteglass.com/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "气泡"
   },
   {
     "category": "overlays",
     "name": "Tooltip",
-    "zh": "提示",
-    "source": "radix",
-    "url": "https://www.radix-ui.com/primitives/docs/overview/introduction",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "提示"
   },
   {
     "category": "overlays",
     "name": "Hover Card",
-    "zh": "悬停预览",
-    "source": "radix",
-    "url": "https://www.radix-ui.com/primitives/docs/overview/introduction",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "悬停预览"
   },
   {
     "category": "overlays",
     "name": "Inspector",
-    "zh": "检查器",
-    "source": "glasscn",
-    "url": "https://glasscn.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "检查器"
   },
   {
     "category": "menus",
     "name": "Dropdown Menu",
-    "zh": "下拉菜单",
-    "source": "radix",
-    "url": "https://www.radix-ui.com/primitives/docs/overview/introduction",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "下拉菜单"
   },
   {
     "category": "menus",
     "name": "Context Menu",
-    "zh": "右键菜单",
-    "source": "radix",
-    "url": "https://www.radix-ui.com/primitives/docs/overview/introduction",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "右键菜单"
   },
   {
     "category": "menus",
     "name": "Command Palette",
-    "zh": "命令面板",
-    "source": "cmdk",
-    "url": "https://github.com/pacocoursey/cmdk",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "命令面板"
   },
   {
     "category": "menus",
     "name": "Menu Bar",
-    "zh": "菜单栏",
-    "source": "radix",
-    "url": "https://www.radix-ui.com/primitives/docs/overview/introduction",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "菜单栏"
   },
   {
     "category": "glass-cards",
     "name": "Frosted Card",
-    "zh": "经典毛玻璃",
-    "source": "glasscn",
-    "url": "https://glasscn.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "经典毛玻璃"
   },
   {
     "category": "glass-cards",
     "name": "Liquid Card",
-    "zh": "液态玻璃",
-    "source": "website-glass",
-    "url": "https://websiteglass.com/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "液态玻璃"
   },
   {
     "category": "glass-cards",
     "name": "Adaptive Tint",
-    "zh": "环境染色",
-    "source": "local",
-    "url": null,
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "环境染色"
   },
   {
     "category": "glass-cards",
     "name": "Spatial Card",
-    "zh": "空间悬浮",
-    "source": "glasscn",
-    "url": "https://glasscn.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "空间悬浮"
   },
   {
     "category": "glass-cards",
     "name": "Bento Glass",
-    "zh": "组合卡片",
-    "source": "glasscn",
-    "url": "https://glasscn.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "组合卡片"
   },
   {
     "category": "glass-cards",
     "name": "Dark Glass",
-    "zh": "深色",
-    "source": "glasscn",
-    "url": "https://glasscn.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "深色"
   },
   {
     "category": "glass-cards",
     "name": "Interactive Glass",
-    "zh": "交互高光",
-    "source": "local",
-    "url": null,
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "交互高光"
   },
   {
     "category": "glass-cards",
     "name": "Popover Card",
-    "zh": "气泡卡片",
-    "source": "website-glass",
-    "url": "https://websiteglass.com/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "气泡卡片"
   },
   {
     "category": "content",
     "name": "Card",
-    "zh": "卡片",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "卡片"
   },
   {
     "category": "content",
     "name": "Avatar",
-    "zh": "头像",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "头像"
   },
   {
     "category": "content",
     "name": "Badge",
-    "zh": "标签",
-    "source": "glasscn",
-    "url": "https://glasscn.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "标签"
   },
   {
     "category": "content",
     "name": "Skeleton",
-    "zh": "骨架屏",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "骨架屏"
   },
   {
     "category": "content",
     "name": "Empty State",
-    "zh": "空状态",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "空状态"
   },
   {
     "category": "content",
     "name": "Accordion",
-    "zh": "折叠",
-    "source": "radix",
-    "url": "https://www.radix-ui.com/primitives/docs/overview/introduction",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "折叠"
   },
   {
     "category": "content",
     "name": "Disclosure",
-    "zh": "披露",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "披露"
   },
   {
     "category": "content",
     "name": "Carousel",
-    "zh": "轮播",
-    "source": "embla",
-    "url": "https://www.embla-carousel.com/",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "轮播"
   },
   {
     "category": "content",
     "name": "Image Viewer",
-    "zh": "图片预览",
-    "source": "photoswipe",
-    "url": "https://photoswipe.com/",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "图片预览"
   },
   {
     "category": "content",
     "name": "Separator",
-    "zh": "分割线",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "分割线"
   },
   {
     "category": "content",
     "name": "Kbd",
-    "zh": "快捷键",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "快捷键"
   },
   {
     "category": "feedback",
     "name": "Progress",
-    "zh": "进度",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "进度"
   },
   {
     "category": "feedback",
     "name": "Spinner",
-    "zh": "加载",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "加载"
   },
   {
     "category": "feedback",
     "name": "Status Dot",
-    "zh": "状态",
-    "source": "local",
-    "url": null,
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "状态"
   },
   {
     "category": "feedback",
     "name": "Alert Banner",
-    "zh": "提示横幅",
-    "source": "shadcn",
-    "url": "https://ui.shadcn.com/docs/components",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "提示横幅"
   },
   {
     "category": "feedback",
     "name": "Toast",
-    "zh": "消息",
-    "source": "sonner",
-    "url": "https://sonner.emilkowal.ski/",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "消息"
   },
   {
     "category": "feedback",
     "name": "Notification",
-    "zh": "通知",
-    "source": "glasscn",
-    "url": "https://glasscn.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "通知"
   },
   {
     "category": "feedback",
     "name": "Meter",
-    "zh": "容量",
-    "source": "local",
-    "url": null,
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "容量"
   },
   {
     "category": "feedback",
     "name": "Step Progress",
-    "zh": "阶段进度",
-    "source": "local",
-    "url": null,
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "阶段进度"
   },
   {
     "category": "layout-controls",
     "name": "Breadcrumb",
-    "zh": "面包屑",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "面包屑"
   },
   {
     "category": "layout-controls",
     "name": "Toolbar",
-    "zh": "工具栏",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "工具栏"
   },
   {
     "category": "layout-controls",
     "name": "Pagination",
-    "zh": "分页",
-    "source": "shadcn",
-    "url": "https://ui.shadcn.com/docs/components",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "分页"
   },
   {
     "category": "layout-controls",
     "name": "Page Control",
-    "zh": "分页圆点",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "分页圆点"
   },
   {
     "category": "layout-controls",
     "name": "Bottom Tabs",
-    "zh": "底部导航",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "底部导航"
   },
   {
     "category": "layout-controls",
     "name": "Dock",
-    "zh": "程序坞",
-    "source": "magic-ui",
-    "url": "https://magicui.design/docs/components/dock",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "程序坞"
   },
   {
     "category": "layout-controls",
     "name": "Split View",
-    "zh": "分栏",
-    "source": "panels",
-    "url": "https://github.com/bvaughn/react-resizable-panels",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "分栏"
   },
   {
     "category": "layout-controls",
     "name": "Scroll Area",
-    "zh": "滚动",
-    "source": "radix",
-    "url": "https://www.radix-ui.com/primitives/docs/overview/introduction",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "滚动"
   },
   {
     "category": "layout-controls",
     "name": "Window",
-    "zh": "窗口",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "窗口"
   },
   {
     "category": "advanced-interactions",
     "name": "Draggable Sheet",
-    "zh": "拖拽面板",
-    "source": "vaul",
-    "url": "https://github.com/emilkowalski/vaul",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "拖拽面板"
   },
   {
     "category": "advanced-interactions",
     "name": "Spotlight",
-    "zh": "全局搜索",
-    "source": "cmdk",
-    "url": "https://github.com/pacocoursey/cmdk",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "全局搜索"
   },
   {
     "category": "advanced-interactions",
     "name": "Drag and Drop",
-    "zh": "拖放",
-    "source": "dnd-kit",
-    "url": "https://github.com/clauderic/dnd-kit",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "拖放"
   },
   {
     "category": "advanced-interactions",
     "name": "Shared Element",
-    "zh": "共享元素",
-    "source": "motion",
-    "url": "https://motion.dev/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "共享元素"
   },
   {
     "category": "advanced-interactions",
     "name": "Swipe Actions",
-    "zh": "滑动操作",
-    "source": "motion",
-    "url": "https://motion.dev/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "滑动操作"
   },
   {
     "category": "advanced-interactions",
     "name": "Floating Window",
-    "zh": "浮动窗口",
-    "source": "react-rnd",
-    "url": "https://github.com/bokuweb/react-rnd",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "浮动窗口"
   },
   {
     "category": "advanced-interactions",
     "name": "Rubber Band",
-    "zh": "橡皮筋",
-    "source": "motion",
-    "url": "https://motion.dev/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "橡皮筋"
   },
   {
     "category": "advanced-interactions",
     "name": "Inertia",
-    "zh": "惯性",
-    "source": "motion",
-    "url": "https://motion.dev/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "惯性"
   },
   {
     "category": "composite-components",
     "name": "Settings",
-    "zh": "设置",
-    "source": "glasscn",
-    "url": "https://glasscn.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "设置"
   },
   {
     "category": "composite-components",
     "name": "Chat",
-    "zh": "聊天",
-    "source": "assistant-ui",
-    "url": "https://github.com/assistant-ui/assistant-ui",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "聊天"
   },
   {
     "category": "composite-components",
     "name": "Composer",
-    "zh": "输入区",
-    "source": "ai-elements",
-    "url": "https://ai-sdk.dev/elements",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "输入区"
   },
   {
     "category": "composite-components",
     "name": "Markdown",
-    "zh": "流式文本",
-    "source": "streamdown",
-    "url": "https://github.com/vercel/streamdown",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "流式文本"
   },
   {
     "category": "composite-components",
     "name": "Media Player",
-    "zh": "播放器",
-    "source": "vidstack",
-    "url": "https://github.com/vidstack/player",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "播放器"
   },
   {
     "category": "composite-components",
     "name": "Authentication",
-    "zh": "登录",
-    "source": "applecn",
-    "url": "https://applecn.vercel.app/docs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "登录"
   },
   {
     "category": "composite-components",
     "name": "File Manager",
-    "zh": "文件管理",
-    "source": "local",
-    "url": null,
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "文件管理"
   },
   {
     "category": "composite-components",
     "name": "Upload",
-    "zh": "上传",
-    "source": "uppy",
-    "url": "https://uppy.io/",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "上传"
   },
   {
     "category": "composite-components",
     "name": "Calendar",
-    "zh": "日历",
-    "source": "fullcalendar",
-    "url": "https://fullcalendar.io/",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "日历"
   },
   {
     "category": "composite-components",
     "name": "Canvas",
-    "zh": "画布",
-    "source": "tldraw",
-    "url": "https://github.com/tldraw/tldraw",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "画布"
   },
   {
     "category": "composite-components",
     "name": "Node Editor",
-    "zh": "节点",
-    "source": "react-flow",
-    "url": "https://reactflow.dev/",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "节点"
   },
   {
     "category": "composite-components",
     "name": "Inbox",
-    "zh": "收件箱",
-    "source": "local",
-    "url": null,
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "收件箱"
   },
   {
     "category": "composite-components",
     "name": "Code Editor",
-    "zh": "代码",
-    "source": "monaco",
-    "url": "https://github.com/microsoft/monaco-editor",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "代码"
   },
   {
     "category": "composite-components",
     "name": "Terminal",
-    "zh": "终端",
-    "source": "xterm",
-    "url": "https://github.com/xtermjs/xterm.js",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "终端"
   },
   {
     "category": "composite-components",
     "name": "Cropper",
-    "zh": "裁剪",
-    "source": "cropper",
-    "url": "https://github.com/fengyuanchen/cropperjs",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "裁剪"
   },
   {
     "category": "composite-components",
     "name": "Kanban",
-    "zh": "看板",
-    "source": "dnd-kit",
-    "url": "https://github.com/clauderic/dnd-kit",
-    "status": "reference-only",
-    "license": "not verified",
-    "version": null
+    "zh": "看板"
   }
 ]
