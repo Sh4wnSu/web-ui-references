@@ -1,0 +1,2 @@
+# 动效
+Hover 100–150ms；按压 scale .94–.97 / 80–120ms；松手 Spring 500/40/1；玻璃放大 1.04–1.09；悬浮 -2 至 -4px；图标 .90–.96；高光 150–200ms；状态 180–250ms。复用 [Spring](../navigation/motion/README.md)。图库使用 CSS/WAAPI 近似，不是物理速度继承。尊重 reduced motion。
