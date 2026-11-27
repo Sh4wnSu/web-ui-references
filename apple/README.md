@@ -3,3 +3,5 @@
 以下数值是 Web 推荐值，不是官方统一规范或生产 CSS 实测。详见各章节及 references。
 ## 进阶专题
 [自适应色彩系统：动态取色、OKLCH、渐变与玻璃染色](adaptive-color-system.md)
+
+[数据可视化设计体系](data-visualization/README.md)
