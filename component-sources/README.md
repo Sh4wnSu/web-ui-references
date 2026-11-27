@@ -1,0 +1,2 @@
+# Source catalog
+Machine-readable catalog.json; reference-only means no upstream source vendored or version/license verified. Generic libraries supply behavior, not Apple styling. Original examples are separate. Before importing pin revision, inspect license and dependencies, preserve notices. Never distribute Apple proprietary fonts or SF Symbols without applicable rights.
