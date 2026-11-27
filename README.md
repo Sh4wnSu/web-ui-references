@@ -36,3 +36,5 @@ Web UI 设计参考知识库：设计原则、实现规范、Design Tokens 与�
 
 ## 导航设计体系
 [侧栏与顶部 Tab](apple/navigation/README.md) · [源码资源](apple/navigation/source-catalog.md) · [17 种交互示例](examples/navigation/index.html) · [Tokens](design-tokens/navigation.css)
+
+[Apple-inspired Spring 动效](apple/navigation/motion/README.md) · [Spring Lab](examples/sidebar-motion/index.html)
