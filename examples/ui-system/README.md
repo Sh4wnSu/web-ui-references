@@ -1,0 +1,1 @@
+Original gallery with 63 examples. Native browser controls may vary by OS. Some examples are layout-only or simulated; no real authentication, playback, or backend. Glass is CSS approximation. Open index.html via local HTTP server. No browser tests performed.
