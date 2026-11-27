@@ -1,0 +1,5 @@
+:root {
+ --chart-blue:#6389c6; --chart-green:#68a68c; --chart-orange:#d5a16b; --chart-rose:#cc7882; --chart-purple:#9c85be; --chart-indigo:#7d8dbb; --chart-cyan:#69aab5; --chart-yellow:#ccb66c;
+ --chart-grid:rgb(0 0 0 / 10%); --chart-axis:#6e6e73; --chart-line-width:2px; --chart-bar-radius:4px; --chart-point-radius:4px; --chart-area-opacity:.18; --chart-card-radius:20px; --chart-card-padding:24px; --chart-kpi-size:36px; --chart-axis-size:12px;
+}
+[data-theme="dark"] {--chart-grid:rgb(255 255 255 / 12%);--chart-axis:#98989d}
