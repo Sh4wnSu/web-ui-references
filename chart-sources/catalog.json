@@ -1,0 +1,596 @@
+[
+  {
+    "id": 1,
+    "name": "Line",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "line-simple",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 2,
+    "name": "Area",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "area-simple",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 3,
+    "name": "Multi-line",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "line-stack",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 4,
+    "name": "Stacked Area",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "area-stack",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 5,
+    "name": "Sparkline",
+    "library": "shadcn",
+    "repository": "https://github.com/shadcn-ui/ui",
+    "examples": "https://ui.shadcn.com/charts",
+    "exampleHint": "",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 6,
+    "name": "Step",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "line-step",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 7,
+    "name": "Band",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "line-confidence-band",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 8,
+    "name": "Candlestick",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "candlestick-simple",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 9,
+    "name": "Column",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "bar-simple",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 10,
+    "name": "Bar",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "bar-y-category",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 11,
+    "name": "Grouped Bar",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "bar-label-rotation",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 12,
+    "name": "Stacked Bar",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "bar-stack",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 13,
+    "name": "100% Stacked",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "bar-stack-normalization",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 14,
+    "name": "Lollipop",
+    "library": "d3",
+    "repository": "https://github.com/d3/d3",
+    "examples": "https://observablehq.com/@d3/gallery",
+    "exampleHint": "lollipop-chart",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 15,
+    "name": "Dumbbell",
+    "library": "plot",
+    "repository": "https://github.com/observablehq/plot",
+    "examples": "https://observablehq.com/plot/",
+    "exampleHint": "",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 16,
+    "name": "Slope",
+    "library": "d3",
+    "repository": "https://github.com/d3/d3",
+    "examples": "https://observablehq.com/@d3/gallery",
+    "exampleHint": "slope-chart",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 17,
+    "name": "Pie",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "pie-simple",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 18,
+    "name": "Donut",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "pie-doughnut",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 19,
+    "name": "Capacity Bar",
+    "library": "tremor",
+    "repository": "https://github.com/tremorlabs/tremor",
+    "examples": "https://www.tremor.so/",
+    "exampleHint": "",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 20,
+    "name": "Treemap",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "treemap-simple",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 21,
+    "name": "Waffle",
+    "library": "nivo",
+    "repository": "https://github.com/plouc/nivo",
+    "examples": "https://nivo.rocks/",
+    "exampleHint": "waffle",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 22,
+    "name": "Sunburst",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "sunburst-simple",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 23,
+    "name": "Histogram",
+    "library": "plot",
+    "repository": "https://github.com/observablehq/plot",
+    "examples": "https://observablehq.com/plot/",
+    "exampleHint": "",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 24,
+    "name": "Box Plot",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "boxplot-light-velocity",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 25,
+    "name": "Violin",
+    "library": "plotly",
+    "repository": "https://github.com/plotly/plotly.js",
+    "examples": "https://plotly.com/javascript/",
+    "exampleHint": "violin",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 26,
+    "name": "Density",
+    "library": "plot",
+    "repository": "https://github.com/observablehq/plot",
+    "examples": "https://observablehq.com/plot/",
+    "exampleHint": "",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 27,
+    "name": "Beeswarm",
+    "library": "nivo",
+    "repository": "https://github.com/plouc/nivo",
+    "examples": "https://nivo.rocks/",
+    "exampleHint": "swarmplot",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 28,
+    "name": "Ridgeline",
+    "library": "d3",
+    "repository": "https://github.com/d3/d3",
+    "examples": "https://observablehq.com/@d3/gallery",
+    "exampleHint": "ridgeline-plot",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 29,
+    "name": "Scatter",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "scatter-simple",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 30,
+    "name": "Bubble",
+    "library": "chartjs",
+    "repository": "https://github.com/chartjs/Chart.js",
+    "examples": "https://www.chartjs.org/docs/latest/",
+    "exampleHint": "bubble",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 31,
+    "name": "Correlation Matrix",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "heatmap-cartesian",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 32,
+    "name": "Parallel Coordinates",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "parallel-simple",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 33,
+    "name": "Progress Bar",
+    "library": "tremor",
+    "repository": "https://github.com/tremorlabs/tremor",
+    "examples": "https://www.tremor.so/",
+    "exampleHint": "",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 34,
+    "name": "Progress Ring",
+    "library": "shadcn",
+    "repository": "https://github.com/shadcn-ui/ui",
+    "examples": "https://ui.shadcn.com/charts",
+    "exampleHint": "",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 35,
+    "name": "Activity Rings",
+    "library": "swift",
+    "repository": "https://github.com/jordibruin/Swift-Charts-Examples",
+    "examples": "https://developer.apple.com/documentation/charts",
+    "exampleHint": "",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 36,
+    "name": "Gauge",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "gauge-simple",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 37,
+    "name": "Bullet",
+    "library": "nivo",
+    "repository": "https://github.com/plouc/nivo",
+    "examples": "https://nivo.rocks/",
+    "exampleHint": "bullet",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 38,
+    "name": "Liquid Fill",
+    "library": "liquid",
+    "repository": "https://github.com/ecomfe/echarts-liquidfill",
+    "examples": "https://github.com/ecomfe/echarts-liquidfill",
+    "exampleHint": "",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 39,
+    "name": "Range Bar",
+    "library": "visx",
+    "repository": "https://github.com/airbnb/visx",
+    "examples": "https://airbnb.io/visx/gallery",
+    "exampleHint": "",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 40,
+    "name": "Error Bar",
+    "library": "plotly",
+    "repository": "https://github.com/plotly/plotly.js",
+    "examples": "https://plotly.com/javascript/",
+    "exampleHint": "error-bars",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 41,
+    "name": "Gantt",
+    "library": "gantt",
+    "repository": "https://github.com/frappe/gantt",
+    "examples": "https://frappe.io/gantt",
+    "exampleHint": "",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 42,
+    "name": "State Timeline",
+    "library": "tremor",
+    "repository": "https://github.com/tremorlabs/tremor",
+    "examples": "https://www.tremor.so/",
+    "exampleHint": "",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 43,
+    "name": "Waterfall",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "bar-waterfall",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 44,
+    "name": "Timeline",
+    "library": "visx",
+    "repository": "https://github.com/airbnb/visx",
+    "examples": "https://airbnb.io/visx/gallery",
+    "exampleHint": "",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 45,
+    "name": "Heatmap",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "heatmap-cartesian",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 46,
+    "name": "Calendar Heatmap",
+    "library": "nivo",
+    "repository": "https://github.com/plouc/nivo",
+    "examples": "https://nivo.rocks/",
+    "exampleHint": "calendar",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 47,
+    "name": "2D Density",
+    "library": "d3",
+    "repository": "https://github.com/d3/d3",
+    "examples": "https://observablehq.com/@d3/gallery",
+    "exampleHint": "density-contours",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 48,
+    "name": "Spectrogram",
+    "library": "plotly",
+    "repository": "https://github.com/plotly/plotly.js",
+    "examples": "https://plotly.com/javascript/",
+    "exampleHint": "heatmaps",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 49,
+    "name": "Sankey",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "sankey-simple",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 50,
+    "name": "Funnel",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "funnel",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 51,
+    "name": "Tree",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "tree-basic",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 52,
+    "name": "Network",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "graph-simple",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 53,
+    "name": "Chord",
+    "library": "nivo",
+    "repository": "https://github.com/plouc/nivo",
+    "examples": "https://nivo.rocks/",
+    "exampleHint": "chord",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 54,
+    "name": "Circle Packing",
+    "library": "nivo",
+    "repository": "https://github.com/plouc/nivo",
+    "examples": "https://nivo.rocks/",
+    "exampleHint": "circle-packing",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 55,
+    "name": "Radar",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "radar",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 56,
+    "name": "Polar Bar",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "bar-polar-real-estate",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 57,
+    "name": "Rose",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "pie-roseType",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 58,
+    "name": "Small Multiples",
+    "library": "plot",
+    "repository": "https://github.com/observablehq/plot",
+    "examples": "https://observablehq.com/plot/",
+    "exampleHint": "",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 59,
+    "name": "Choropleth",
+    "library": "nivo",
+    "repository": "https://github.com/plouc/nivo",
+    "examples": "https://nivo.rocks/",
+    "exampleHint": "choropleth",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 60,
+    "name": "Bubble Map",
+    "library": "deck",
+    "repository": "https://github.com/visgl/deck.gl",
+    "examples": "https://deck.gl/examples",
+    "exampleHint": "",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 61,
+    "name": "Geographic Heatmap",
+    "library": "deck",
+    "repository": "https://github.com/visgl/deck.gl",
+    "examples": "https://deck.gl/examples",
+    "exampleHint": "",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 62,
+    "name": "Flow Map",
+    "library": "deck",
+    "repository": "https://github.com/visgl/deck.gl",
+    "examples": "https://deck.gl/examples",
+    "exampleHint": "",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 63,
+    "name": "Metric Card",
+    "library": "tremor",
+    "repository": "https://github.com/tremorlabs/tremor",
+    "examples": "https://www.tremor.so/",
+    "exampleHint": "",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 64,
+    "name": "KPI + Sparkline",
+    "library": "tremor",
+    "repository": "https://github.com/tremorlabs/tremor",
+    "examples": "https://www.tremor.so/",
+    "exampleHint": "",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  },
+  {
+    "id": 65,
+    "name": "Combination",
+    "library": "echarts",
+    "repository": "https://github.com/apache/echarts",
+    "examples": "https://echarts.apache.org/examples/en/index.html",
+    "exampleHint": "mix-line-bar",
+    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+  },
+  {
+    "id": 66,
+    "name": "In-cell Charts",
+    "library": "tanstack",
+    "repository": "https://github.com/TanStack/table",
+    "examples": "https://tanstack.com/table/latest",
+    "exampleHint": "",
+    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+  }
+]
