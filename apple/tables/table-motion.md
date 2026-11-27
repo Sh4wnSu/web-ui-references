@@ -1,0 +1,2 @@
+# 动效
+Hover 100–150ms；选中 120–180ms；排序 FLIP 180–250ms；展开 200–300ms；菜单高阻尼 Spring；列宽实时拖动；状态 150–200ms；数字更新 150–250ms；筛选淡入 150–200ms；拖拽排序 Spring 380/38/1。参见 [Spring](../navigation/motion/README.md)。高频监控避免整表动画；尊重 reduced motion。图库仅实现颜色过渡，其他为建议。
