@@ -1,0 +1,2 @@
+:root{--nav-width:240px;--nav-compact-width:200px;--nav-icon-width:60px;--nav-row-height:36px;--nav-radius:8px;--nav-floating-radius:24px;--nav-icon-size:18px;--nav-font-size:14px;--nav-group-size:11px;--nav-group-gap:24px;--nav-gap:8px;--nav-duration:250ms;--nav-blur:24px;--tab-height:36px;--tab-padding:16px;--tab-inset:4px;--tab-radius:8px;--tab-indicator:2px;--tab-duration:220ms;--tab-shadow:0 1px 4px #00000014}
+@media(prefers-reduced-motion:reduce){:root{--nav-duration:0ms;--tab-duration:0ms}}
