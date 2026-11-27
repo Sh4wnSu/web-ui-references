@@ -1,0 +1,2 @@
+# Icons
+[SF Symbols](https://developer.apple.com/sf-symbols/) native reference, subject to Apple license; Web alternatives [Lucide](https://lucide.dev/), [Hugeicons](https://hugeicons.com/), [Phosphor](https://phosphoricons.com/), [Iconoir](https://iconoir.com/), [Tabler](https://tabler.io/icons). Use consistent 16/20/24px, rounded strokes, accessible labels. No proprietary assets distributed.
