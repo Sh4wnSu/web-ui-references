@@ -28,3 +28,5 @@ Radix UI/Base UI 行为，Tailwind/CSS Variables 样式，shadcn/ui 源码，Int
 |材质|Glass|色调表面|Acrylic/Mica|实色|
 |动效|弹性|容器转换|缓动|快速反馈|
 专业工具建议 macOS 分栏 + Linear 信息密度 + Apple 卡片和排版，概览用 Bento，玻璃仅控制层。优先字体、空间、配色、组件一致性，再做圆角、图标、动效、阴影、玻璃。
+## 动态色彩
+[Apple Music Artwork](https://developer.apple.com/documentation/applemusicapi/artwork) · [Accelerate 主色提取](https://developer.apple.com/documentation/accelerate/calculating-the-dominant-colors-in-an-image) · [Culori](https://github.com/Evercoder/culori) · [Color Thief](https://github.com/lokesh/color-thief) · [Vibrant.js](https://github.com/Vibrant-Colors/node-vibrant)
