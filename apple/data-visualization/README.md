@@ -18,6 +18,6 @@
 - [技术选型与官方资源](references.md)
 - [图表示例](../../examples/charts/index.html)
 
-[66 项图表实现资源索引](source-catalog.md)
+[66 项图表分类索引](source-catalog.md)
 
 - [图表配色 A/B/C](chart-colors.md)
