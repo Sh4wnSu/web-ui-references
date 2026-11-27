@@ -38,3 +38,5 @@ Radix UI/Base UI 行为，Tailwind/CSS Variables 样式，shadcn/ui 源码，Int
 [表格实现资源](../apple/tables/source-catalog.md) · [applecn](https://github.com/STiXzoOR/applecn)（Apple-inspired Web 设计系统参考）
 
 [按钮实现资源](../apple/buttons/source-catalog.md) · [glasscn.app](https://glasscn.app/docs/button) · [glasscn-components](https://github.com/kostyniuk/glasscn-components) · [glassy-liquid](https://github.com/9und30/glassy-liquid)
+
+[统一组件资源目录](../component-sources/README.md)
