@@ -1,0 +1,28 @@
+{
+  "colors": {
+    "system": "#007AFF",
+    "web": "#0071E3",
+    "muted": "#6389C6",
+    "tinted": "#E3EDFC",
+    "gray": "#E5E5EA",
+    "mono": "#1D1D1F",
+    "destructive": "#FF3B30",
+    "success": "#34C759",
+    "softDestructive": "#FCE7E7"
+  },
+  "motion": {
+    "pressScale": 0.96,
+    "glassScale": 1.06,
+    "spring": {
+      "stiffness": 500,
+      "damping": 40,
+      "mass": 1
+    }
+  },
+  "height": {
+    "macos": 28,
+    "ios": 44,
+    "web": 36,
+    "large": 52
+  }
+}
