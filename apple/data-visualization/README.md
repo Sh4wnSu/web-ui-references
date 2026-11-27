@@ -19,3 +19,5 @@
 - [图表示例](../../examples/charts/index.html)
 
 [66 项图表实现资源索引](source-catalog.md)
+
+- [图表配色 A/B/C](chart-colors.md)
