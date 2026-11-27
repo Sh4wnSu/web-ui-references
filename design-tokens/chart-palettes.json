@@ -1,0 +1,57 @@
+{
+  "system": {
+    "blue": "#007AFF",
+    "green": "#34C759",
+    "orange": "#FF9500",
+    "red": "#FF3B30",
+    "purple": "#AF52DE",
+    "indigo": "#5856D6",
+    "cyan": "#5AC8FA",
+    "yellow": "#FFCC00"
+  },
+  "muted": {
+    "blue": "#6389C6",
+    "green": "#68A68C",
+    "orange": "#D5A16B",
+    "rose": "#CC7882",
+    "purple": "#9C85BE",
+    "indigo": "#7D8DBB",
+    "cyan": "#69AAB5",
+    "yellow": "#CCB66C"
+  },
+  "monochromatic": {
+    "50": [
+      "oklch(0.35 0.08 50)",
+      "oklch(0.45 0.08 50)",
+      "oklch(0.55 0.08 50)",
+      "oklch(0.65 0.08 50)",
+      "oklch(0.75 0.08 50)",
+      "oklch(0.85 0.08 50)"
+    ],
+    "155": [
+      "oklch(0.35 0.08 155)",
+      "oklch(0.45 0.08 155)",
+      "oklch(0.55 0.08 155)",
+      "oklch(0.65 0.08 155)",
+      "oklch(0.75 0.08 155)",
+      "oklch(0.85 0.08 155)"
+    ],
+    "245": [
+      "oklch(0.35 0.08 245)",
+      "oklch(0.45 0.08 245)",
+      "oklch(0.55 0.08 245)",
+      "oklch(0.65 0.08 245)",
+      "oklch(0.75 0.08 245)",
+      "oklch(0.85 0.08 245)"
+    ],
+    "300": [
+      "oklch(0.35 0.08 300)",
+      "oklch(0.45 0.08 300)",
+      "oklch(0.55 0.08 300)",
+      "oklch(0.65 0.08 300)",
+      "oklch(0.75 0.08 300)",
+      "oklch(0.85 0.08 300)"
+    ]
+  },
+  "notes": "A: representative traditional Apple system colors, not current dynamic system tokens. B: custom muted palette. C: custom OKLCH ramps; check gamut and contrast."
+}
