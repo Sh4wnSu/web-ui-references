@@ -1,0 +1,2 @@
+:root{--button-system:#007AFF;--button-web:#0071E3;--button-muted:#6389C6;--button-tinted:#E3EDFC;--button-gray:#E5E5EA;--button-mono:#1D1D1F;--button-destructive:#FF3B30;--button-success:#34C759;--button-softDestructive:#FCE7E7;--button-press-scale:.96;--button-glass-scale:1.06;--button-radius:999px;--button-duration:150ms;--button-ease:cubic-bezier(.22,1.25,.36,1)}
+@media(prefers-reduced-motion:reduce){:root{--button-duration:0ms;--button-press-scale:1;--button-glass-scale:1}}
