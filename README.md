@@ -21,7 +21,7 @@ Web UI 设计参考知识库：设计原则、实现规范、Design Tokens 与�
 克隆仓库后在浏览器打开 HTML 即可，无需安装依赖。示例为自制近似，不是 Apple 官方实现；尚未完成跨浏览器测试。
 
 ## 参考
-[官方资料、项目、技术选型及风格对比](references/README.md)
+[内部 Apple 风格参考](references/README.md)
 
 推荐参数并非官方强制标准；不分发 Apple 专有字体或第三方截图。
 ## 自适应色彩系统
@@ -30,7 +30,7 @@ Web UI 设计参考知识库：设计原则、实现规范、Design Tokens 与�
 ## 数据可视化设计体系
 [图表设计指南](apple/data-visualization/README.md) · [66 项图表分类](apple/data-visualization/chart-types.md) · [图表 Tokens](design-tokens/charts.css) · [SVG 图表图库](examples/charts/index.html)
 
-[66 项图表实现资源索引](apple/data-visualization/source-catalog.md)
+[66 项图表分类索引](apple/data-visualization/source-catalog.md)
 
 [图表配色 A/B/C](apple/data-visualization/chart-colors.md) · [配色预览](examples/chart-palettes/index.html)
 
@@ -49,5 +49,5 @@ Web UI 设计参考知识库：设计原则、实现规范、Design Tokens 与�
 [设计与实现](apple/buttons/README.md) · [按钮图库](examples/buttons/index.html) · [Tokens](design-tokens/buttons.css)
 
 ## 完整组件体系
-[统一组件索引](apple/component-index.md) · [63 项原生示例](examples/ui-system/index.html) · [94 项资源目录](component-sources/catalog.json) · [共享样式](design-tokens/ui-system.css)
-保留既有专题路径；资源目录为参考入口，不代表已导入第三方源码。
+[统一组件索引](apple/component-index.md) · [63 项原生示例](examples/ui-system/index.html) · [94 项组件分类目录](component-sources/catalog.json) · [共享样式](design-tokens/ui-system.css)
+保留既有专题路径；目录仅保留内部分类，不含外部项目推荐。
