@@ -1,0 +1,3 @@
+:root{--spring-sidebar-duration:280ms;--spring-sidebar-ease:cubic-bezier(.77,0,.175,1);--spring-snappy-duration:420ms;--spring-snappy-ease:cubic-bezier(.22,1,.36,1);--spring-label-duration:140ms;--spring-label-delay:140ms}
+@supports(transition-timing-function:linear(0,1)){:root{--spring-snappy-ease:linear(0,.12 8%,.38 18%,.68 30%,.91 45%,1.02 60%,1.015 75%,1)}}
+@media(prefers-reduced-motion:reduce){:root{--spring-sidebar-duration:0ms;--spring-snappy-duration:0ms;--spring-label-duration:0ms;--spring-label-delay:0ms}}
