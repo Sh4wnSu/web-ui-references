@@ -1,2 +1,26 @@
-# web-ui-references
-Web UI design references, design systems, visual guidelines and implementation examples.
+# Web UI References
+Web UI 设计参考知识库：设计原则、实现规范、Design Tokens 与原生 Web 示例。
+
+## Apple 风格
+- [设计总览](apple/README.md)
+- [字体与排版](apple/typography.md)
+- [配色](apple/color-system.md)
+- [布局与间距](apple/layout.md)
+- [连续圆角](apple/continuous-corners.md)
+- [材质与阴影](apple/materials.md)
+- [组件、导航与图标](apple/components.md)
+- [动效与可访问性](apple/motion.md)
+- [视觉素材](apple/visual-assets.md)
+
+## Design Tokens
+[CSS](design-tokens/apple.css) · [JSON](design-tokens/apple.json)
+
+## 示例
+[连续圆角](examples/continuous-corners/index.html) · [Bento Grid](examples/bento-grid/index.html) · [玻璃材质](examples/liquid-glass/index.html) · [基础组件](examples/components/index.html) · [Dashboard](examples/dashboard/index.html) · [动效](examples/motion/index.html)
+
+克隆仓库后在浏览器打开 HTML 即可，无需安装依赖。示例为自制近似，不是 Apple 官方实现；尚未完成跨浏览器测试。
+
+## 参考
+[官方资料、项目、技术选型及风格对比](references/README.md)
+
+推荐参数并非官方强制标准；不分发 Apple 专有字体或第三方截图。
