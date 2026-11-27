@@ -1,0 +1,2 @@
+# 拖拽交互
+Pointer Events：仅在专用拖拽示例启用；pointerdown 记录起点，水平移动超过 6px 才进入拖拽，捕获指针，滑块跟随并限制在轨道内；pointerup 选择最近按钮中心，spring 吸附；pointercancel 恢复当前选择。touch-action:pan-y 保留纵向滚动。普通点击与键盘始终可用。拖拽期间不反复提交业务状态，结束后提交。可访问性：互斥选择使用 radiogroup/radio、aria-checked、roving tabindex、方向键/Home/End。
