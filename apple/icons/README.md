@@ -1,2 +1,2 @@
-# Icons
-[SF Symbols](https://developer.apple.com/sf-symbols/) native reference, subject to Apple license; Web alternatives [Lucide](https://lucide.dev/), [Hugeicons](https://hugeicons.com/), [Phosphor](https://phosphoricons.com/), [Iconoir](https://iconoir.com/), [Tabler](https://tabler.io/icons). Use consistent 16/20/24px, rounded strokes, accessible labels. No proprietary assets distributed.
+# Apple 风格图标
+参考苹果原生符号的光学对齐、圆端点、统一线宽与语义。建议 16/20/24px，线宽 1.5–2px；图标按钮提供可访问名称。不分发 Apple 专有图标资产。
