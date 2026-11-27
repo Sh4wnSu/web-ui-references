@@ -1,0 +1,35 @@
+{
+  "colors": {
+    "background": "#FFFFFF",
+    "header": "#F5F5F7",
+    "stripe": "#F2F2F5",
+    "hover": "#ECECF1",
+    "selected": "#DCE9FB",
+    "divider": "#E5E5EA",
+    "text": "#1D1D1F",
+    "muted": "#6E6E73"
+  },
+  "density": {
+    "compact": {
+      "header": 28,
+      "row": 30,
+      "font": 12,
+      "padding": 8,
+      "radius": 9
+    },
+    "standard": {
+      "header": 36,
+      "row": 40,
+      "font": 13,
+      "padding": 12,
+      "radius": 14
+    },
+    "comfortable": {
+      "header": 44,
+      "row": 52,
+      "font": 15,
+      "padding": 16,
+      "radius": 22
+    }
+  }
+}
