@@ -1,0 +1,2 @@
+:root{--capsule-height:36px;--capsule-inset:4px;--capsule-radius:999px;--capsule-classic-radius:9px;--capsule-font:13px;--capsule-track:#e5e5ea;--capsule-thumb:#fff;--capsule-shadow:0 1px 5px #0002;--capsule-ease:cubic-bezier(.22,1.25,.36,1);--capsule-duration:350ms;--capsule-press-scale:.97}
+@media(prefers-reduced-motion:reduce){:root{--capsule-duration:0ms;--capsule-press-scale:1}}
