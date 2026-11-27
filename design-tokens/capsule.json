@@ -1,0 +1,18 @@
+{
+  "height": 36,
+  "inset": 4,
+  "radius": 999,
+  "classicRadius": 9,
+  "fontSize": 13,
+  "spring": {
+    "stiffness": 500,
+    "damping": 40,
+    "mass": 1
+  },
+  "css": {
+    "duration": 350,
+    "easing": "cubic-bezier(.22,1.25,.36,1)"
+  },
+  "pressScale": 0.97,
+  "dragThreshold": 6
+}
