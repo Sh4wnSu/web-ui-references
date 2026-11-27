@@ -1,0 +1,3 @@
+# Apple-inspired Tables
+12 种样式与综合交互表格。参考 Finder、Activity Monitor、Numbers、App Store Connect、System Settings、Xcode。原创 Web 近似，不是 Apple 官方组件。
+[样式](table-styles.md) · [密度](typography-and-density.md) · [交互](interactions.md) · [动效](table-motion.md) · [内嵌图表](in-cell-charts.md) · [可访问性](accessibility.md) · [源码资源](source-catalog.md) · [交互图库](../../examples/tables/index.html) · [Tokens](../../design-tokens/table.css)
