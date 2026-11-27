@@ -1,0 +1,5 @@
+:root{--table-background:#FFFFFF;--table-header:#F5F5F7;--table-stripe:#F2F2F5;--table-hover:#ECECF1;--table-selected:#DCE9FB;--table-divider:#E5E5EA;--table-text:#1D1D1F;--table-muted:#6E6E73}
+[data-density="compact"]{--table-header-height:28px;--table-row-height:30px;--table-font:12px;--table-padding:8px;--table-radius:9px}
+[data-density="standard"]{--table-header-height:36px;--table-row-height:40px;--table-font:13px;--table-padding:12px;--table-radius:14px}
+[data-density="comfortable"]{--table-header-height:44px;--table-row-height:52px;--table-font:15px;--table-padding:16px;--table-radius:22px}
+[data-theme="dark"]{--table-background:#252527;--table-header:#303034;--table-stripe:#29292d;--table-hover:#36363b;--table-selected:#395579;--table-divider:#39393c;--table-text:#ededf0;--table-muted:#b0b0b5}
