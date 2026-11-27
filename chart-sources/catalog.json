@@ -6,7 +6,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "line-simple",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "x/y arrays → line series"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "area-simple",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "line + areaStyle"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "line-stack",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "one line series per metric"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "area-stack",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "line series with same stack and areaStyle"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "repository": "https://github.com/shadcn-ui/ui",
     "examples": "https://ui.shadcn.com/charts",
     "exampleHint": "",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "line without axes or labels"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "line-step",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "line step:end"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "line-confidence-band",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "stack invisible lower bound and upper-minus-lower area"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "candlestick-simple",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "OHLC arrays [open,close,low,high]"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "bar-simple",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "category xAxis, value yAxis, bar series"
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "bar-y-category",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "value xAxis, category yAxis"
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "bar-label-rotation",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "multiple bar series without stack"
   },
   {
     "id": 12,
@@ -105,7 +105,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "bar-stack",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "bar series with common stack"
   },
   {
     "id": 13,
@@ -114,7 +114,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "bar-stack-normalization",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "normalize each category total to 100 before stacking"
   },
   {
     "id": 14,
@@ -123,7 +123,7 @@
     "repository": "https://github.com/d3/d3",
     "examples": "https://observablehq.com/@d3/gallery",
     "exampleHint": "lollipop-chart",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "rule from zero + dot at value"
   },
   {
     "id": 15,
@@ -132,7 +132,7 @@
     "repository": "https://github.com/observablehq/plot",
     "examples": "https://observablehq.com/plot/",
     "exampleHint": "",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "rule between two values + endpoint dots"
   },
   {
     "id": 16,
@@ -141,7 +141,7 @@
     "repository": "https://github.com/d3/d3",
     "examples": "https://observablehq.com/@d3/gallery",
     "exampleHint": "slope-chart",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "two x positions, one line per category"
   },
   {
     "id": 17,
@@ -150,7 +150,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "pie-simple",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "pie series"
   },
   {
     "id": 18,
@@ -159,7 +159,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "pie-doughnut",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "pie with inner and outer radius"
   },
   {
     "id": 19,
@@ -168,7 +168,7 @@
     "repository": "https://github.com/tremorlabs/tremor",
     "examples": "https://www.tremor.so/",
     "exampleHint": "",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "single horizontal stacked bar including free capacity"
   },
   {
     "id": 20,
@@ -177,7 +177,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "treemap-simple",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "nested children and value"
   },
   {
     "id": 21,
@@ -186,7 +186,7 @@
     "repository": "https://github.com/plouc/nivo",
     "examples": "https://nivo.rocks/",
     "exampleHint": "waffle",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "100 cells allocated by percentage"
   },
   {
     "id": 22,
@@ -195,7 +195,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "sunburst-simple",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "nested children and value"
   },
   {
     "id": 23,
@@ -204,7 +204,7 @@
     "repository": "https://github.com/observablehq/plot",
     "examples": "https://observablehq.com/plot/",
     "exampleHint": "",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "bin samples, contiguous bars"
   },
   {
     "id": 24,
@@ -213,7 +213,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "boxplot-light-velocity",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "five-number summary plus separate outliers"
   },
   {
     "id": 25,
@@ -222,7 +222,7 @@
     "repository": "https://github.com/plotly/plotly.js",
     "examples": "https://plotly.com/javascript/",
     "exampleHint": "violin",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "kernel density mirrored around category axis"
   },
   {
     "id": 26,
@@ -231,7 +231,7 @@
     "repository": "https://github.com/observablehq/plot",
     "examples": "https://observablehq.com/plot/",
     "exampleHint": "",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "kernel density estimate"
   },
   {
     "id": 27,
@@ -240,7 +240,7 @@
     "repository": "https://github.com/plouc/nivo",
     "examples": "https://nivo.rocks/",
     "exampleHint": "swarmplot",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "collision-aware dot layout"
   },
   {
     "id": 28,
@@ -249,7 +249,7 @@
     "repository": "https://github.com/d3/d3",
     "examples": "https://observablehq.com/@d3/gallery",
     "exampleHint": "ridgeline-plot",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "offset density curves per group"
   },
   {
     "id": 29,
@@ -258,7 +258,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "scatter-simple",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "[x,y] points"
   },
   {
     "id": 30,
@@ -267,7 +267,7 @@
     "repository": "https://github.com/chartjs/Chart.js",
     "examples": "https://www.chartjs.org/docs/latest/",
     "exampleHint": "bubble",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "[x,y,size] with radius proportional to sqrt(size)"
   },
   {
     "id": 31,
@@ -276,7 +276,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "heatmap-cartesian",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "compute Pearson r, diverging color scale [-1,1]"
   },
   {
     "id": 32,
@@ -285,7 +285,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "parallel-simple",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "one axis per dimension"
   },
   {
     "id": 33,
@@ -294,7 +294,7 @@
     "repository": "https://github.com/tremorlabs/tremor",
     "examples": "https://www.tremor.so/",
     "exampleHint": "",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "actual / target on linear track"
   },
   {
     "id": 34,
@@ -303,7 +303,7 @@
     "repository": "https://github.com/shadcn-ui/ui",
     "examples": "https://ui.shadcn.com/charts",
     "exampleHint": "",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "SVG circle dasharray, clamp to target"
   },
   {
     "id": 35,
@@ -312,7 +312,7 @@
     "repository": "https://github.com/jordibruin/Swift-Charts-Examples",
     "examples": "https://developer.apple.com/documentation/charts",
     "exampleHint": "",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "concentric SVG circles with separate targets"
   },
   {
     "id": 36,
@@ -321,7 +321,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "gauge-simple",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "gauge series with min/max"
   },
   {
     "id": 37,
@@ -330,7 +330,7 @@
     "repository": "https://github.com/plouc/nivo",
     "examples": "https://nivo.rocks/",
     "exampleHint": "bullet",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "qualitative bands, actual bar, target marker"
   },
   {
     "id": 38,
@@ -339,7 +339,7 @@
     "repository": "https://github.com/ecomfe/echarts-liquidfill",
     "examples": "https://github.com/ecomfe/echarts-liquidfill",
     "exampleHint": "",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "liquidFill plugin with fraction [0,1]"
   },
   {
     "id": 39,
@@ -348,7 +348,7 @@
     "repository": "https://github.com/airbnb/visx",
     "examples": "https://airbnb.io/visx/gallery",
     "exampleHint": "",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "floating bar using transparent offset plus range length"
   },
   {
     "id": 40,
@@ -357,7 +357,7 @@
     "repository": "https://github.com/plotly/plotly.js",
     "examples": "https://plotly.com/javascript/",
     "exampleHint": "error-bars",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "point plus lower/upper error endpoints"
   },
   {
     "id": 41,
@@ -366,7 +366,7 @@
     "repository": "https://github.com/frappe/gantt",
     "examples": "https://frappe.io/gantt",
     "exampleHint": "",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "task start/end and category"
   },
   {
     "id": 42,
@@ -375,7 +375,7 @@
     "repository": "https://github.com/tremorlabs/tremor",
     "examples": "https://www.tremor.so/",
     "exampleHint": "",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "rectangles by start/end and state"
   },
   {
     "id": 43,
@@ -384,7 +384,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "bar-waterfall",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "invisible baseline + positive/negative increments"
   },
   {
     "id": 44,
@@ -393,7 +393,7 @@
     "repository": "https://github.com/airbnb/visx",
     "examples": "https://airbnb.io/visx/gallery",
     "exampleHint": "",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "ordered timestamp and event labels"
   },
   {
     "id": 45,
@@ -402,7 +402,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "heatmap-cartesian",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "[column,row,value] cells"
   },
   {
     "id": 46,
@@ -411,7 +411,7 @@
     "repository": "https://github.com/plouc/nivo",
     "examples": "https://nivo.rocks/",
     "exampleHint": "calendar",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "date/value pairs"
   },
   {
     "id": 47,
@@ -420,7 +420,7 @@
     "repository": "https://github.com/d3/d3",
     "examples": "https://observablehq.com/@d3/gallery",
     "exampleHint": "density-contours",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "kernel density contours"
   },
   {
     "id": 48,
@@ -429,7 +429,7 @@
     "repository": "https://github.com/plotly/plotly.js",
     "examples": "https://plotly.com/javascript/",
     "exampleHint": "heatmaps",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "STFT magnitude matrix then heatmap"
   },
   {
     "id": 49,
@@ -438,7 +438,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "sankey-simple",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "nodes and weighted links"
   },
   {
     "id": 50,
@@ -447,7 +447,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "funnel",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "ordered stage values"
   },
   {
     "id": 51,
@@ -456,7 +456,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "tree-basic",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "nested children"
   },
   {
     "id": 52,
@@ -465,7 +465,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "graph-simple",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "nodes and edges"
   },
   {
     "id": 53,
@@ -474,7 +474,7 @@
     "repository": "https://github.com/plouc/nivo",
     "examples": "https://nivo.rocks/",
     "exampleHint": "chord",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "square flow matrix"
   },
   {
     "id": 54,
@@ -483,7 +483,7 @@
     "repository": "https://github.com/plouc/nivo",
     "examples": "https://nivo.rocks/",
     "exampleHint": "circle-packing",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "hierarchy with leaf weights"
   },
   {
     "id": 55,
@@ -492,7 +492,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "radar",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "normalized axes and values"
   },
   {
     "id": 56,
@@ -501,7 +501,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "bar-polar-real-estate",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "bar series coordinateSystem polar"
   },
   {
     "id": 57,
@@ -510,7 +510,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "pie-roseType",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "pie roseType area"
   },
   {
     "id": 58,
@@ -519,7 +519,7 @@
     "repository": "https://github.com/observablehq/plot",
     "examples": "https://observablehq.com/plot/",
     "exampleHint": "",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "facet by category with shared scales"
   },
   {
     "id": 59,
@@ -528,7 +528,7 @@
     "repository": "https://github.com/plouc/nivo",
     "examples": "https://nivo.rocks/",
     "exampleHint": "choropleth",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "GeoJSON regions joined by ID with normalized metric"
   },
   {
     "id": 60,
@@ -537,7 +537,7 @@
     "repository": "https://github.com/visgl/deck.gl",
     "examples": "https://deck.gl/examples",
     "exampleHint": "",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "ScatterplotLayer longitude/latitude with area encoding"
   },
   {
     "id": 61,
@@ -546,7 +546,7 @@
     "repository": "https://github.com/visgl/deck.gl",
     "examples": "https://deck.gl/examples",
     "exampleHint": "",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "HeatmapLayer weighted coordinates"
   },
   {
     "id": 62,
@@ -555,7 +555,7 @@
     "repository": "https://github.com/visgl/deck.gl",
     "examples": "https://deck.gl/examples",
     "exampleHint": "",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "ArcLayer source and target coordinates"
   },
   {
     "id": 63,
@@ -564,7 +564,7 @@
     "repository": "https://github.com/tremorlabs/tremor",
     "examples": "https://www.tremor.so/",
     "exampleHint": "",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "formatted aggregate and unit"
   },
   {
     "id": 64,
@@ -573,7 +573,7 @@
     "repository": "https://github.com/tremorlabs/tremor",
     "examples": "https://www.tremor.so/",
     "exampleHint": "",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "aggregate plus axis-free time series"
   },
   {
     "id": 65,
@@ -582,7 +582,7 @@
     "repository": "https://github.com/apache/echarts",
     "examples": "https://echarts.apache.org/examples/en/index.html",
     "exampleHint": "mix-line-bar",
-    "implementationNotes": "在官方示例图库按名称查找配置；使用 charts.css 色板适配。"
+    "implementationNotes": "bar and line series on compatible scales"
   },
   {
     "id": 66,
@@ -591,6 +591,6 @@
     "repository": "https://github.com/TanStack/table",
     "examples": "https://tanstack.com/table/latest",
     "exampleHint": "",
-    "implementationNotes": "在上游案例或源码中查找对应组件；可能需要组合或自定义实现。"
+    "implementationNotes": "table cell renderer with inline SVG"
   }
 ]
