@@ -32,3 +32,5 @@ Radix UI/Base UI 行为，Tailwind/CSS Variables 样式，shadcn/ui 源码，Int
 [Apple Music Artwork](https://developer.apple.com/documentation/applemusicapi/artwork) · [Accelerate 主色提取](https://developer.apple.com/documentation/accelerate/calculating-the-dominant-colors-in-an-image) · [Culori](https://github.com/Evercoder/culori) · [Color Thief](https://github.com/lokesh/color-thief) · [Vibrant.js](https://github.com/Vibrant-Colors/node-vibrant)
 
 [图表官方资料与 Web 项目](../apple/data-visualization/references.md)
+
+[导航组件实现资源](../apple/navigation/source-catalog.md)
