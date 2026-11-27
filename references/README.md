@@ -34,3 +34,5 @@ Radix UI/Base UI 行为，Tailwind/CSS Variables 样式，shadcn/ui 源码，Int
 [图表官方资料与 Web 项目](../apple/data-visualization/references.md)
 
 [导航组件实现资源](../apple/navigation/source-catalog.md)
+
+[表格实现资源](../apple/tables/source-catalog.md) · [applecn](https://github.com/STiXzoOR/applecn)（Apple-inspired Web 设计系统参考）
