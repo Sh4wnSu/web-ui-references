@@ -26,3 +26,6 @@ Web UI 设计参考知识库：设计原则、实现规范、Design Tokens 与�
 推荐参数并非官方强制标准；不分发 Apple 专有字体或第三方截图。
 ## 自适应色彩系统
 [Apple Music 风格动态取色与背景](apple/adaptive-color-system.md) · [图片上传交互实验室](examples/adaptive-color/index.html)
+
+## 数据可视化设计体系
+[图表设计指南](apple/data-visualization/README.md) · [66 项图表分类](apple/data-visualization/chart-types.md) · [图表 Tokens](design-tokens/charts.css) · [SVG 图表图库](examples/charts/index.html)
