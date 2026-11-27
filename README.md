@@ -29,3 +29,5 @@ Web UI 设计参考知识库：设计原则、实现规范、Design Tokens 与�
 
 ## 数据可视化设计体系
 [图表设计指南](apple/data-visualization/README.md) · [66 项图表分类](apple/data-visualization/chart-types.md) · [图表 Tokens](design-tokens/charts.css) · [SVG 图表图库](examples/charts/index.html)
+
+[66 项图表实现资源索引](apple/data-visualization/source-catalog.md)
