@@ -17,3 +17,5 @@
 - [视觉规范、交互与布局](design-guidelines.md)
 - [技术选型与官方资源](references.md)
 - [图表示例](../../examples/charts/index.html)
+
+[66 项图表实现资源索引](source-catalog.md)
