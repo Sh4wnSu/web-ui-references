@@ -1,596 +1,266 @@
 [
   {
     "id": 1,
-    "name": "Line",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "line-simple",
-    "implementationNotes": "x/y arrays → line series"
+    "name": "Line"
   },
   {
     "id": 2,
-    "name": "Area",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "area-simple",
-    "implementationNotes": "line + areaStyle"
+    "name": "Area"
   },
   {
     "id": 3,
-    "name": "Multi-line",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "line-stack",
-    "implementationNotes": "one line series per metric"
+    "name": "Multi-line"
   },
   {
     "id": 4,
-    "name": "Stacked Area",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "area-stack",
-    "implementationNotes": "line series with same stack and areaStyle"
+    "name": "Stacked Area"
   },
   {
     "id": 5,
-    "name": "Sparkline",
-    "library": "shadcn",
-    "repository": "https://github.com/shadcn-ui/ui",
-    "examples": "https://ui.shadcn.com/charts",
-    "exampleHint": "",
-    "implementationNotes": "line without axes or labels"
+    "name": "Sparkline"
   },
   {
     "id": 6,
-    "name": "Step",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "line-step",
-    "implementationNotes": "line step:end"
+    "name": "Step"
   },
   {
     "id": 7,
-    "name": "Band",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "line-confidence-band",
-    "implementationNotes": "stack invisible lower bound and upper-minus-lower area"
+    "name": "Band"
   },
   {
     "id": 8,
-    "name": "Candlestick",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "candlestick-simple",
-    "implementationNotes": "OHLC arrays [open,close,low,high]"
+    "name": "Candlestick"
   },
   {
     "id": 9,
-    "name": "Column",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "bar-simple",
-    "implementationNotes": "category xAxis, value yAxis, bar series"
+    "name": "Column"
   },
   {
     "id": 10,
-    "name": "Bar",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "bar-y-category",
-    "implementationNotes": "value xAxis, category yAxis"
+    "name": "Bar"
   },
   {
     "id": 11,
-    "name": "Grouped Bar",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "bar-label-rotation",
-    "implementationNotes": "multiple bar series without stack"
+    "name": "Grouped Bar"
   },
   {
     "id": 12,
-    "name": "Stacked Bar",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "bar-stack",
-    "implementationNotes": "bar series with common stack"
+    "name": "Stacked Bar"
   },
   {
     "id": 13,
-    "name": "100% Stacked",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "bar-stack-normalization",
-    "implementationNotes": "normalize each category total to 100 before stacking"
+    "name": "100% Stacked"
   },
   {
     "id": 14,
-    "name": "Lollipop",
-    "library": "d3",
-    "repository": "https://github.com/d3/d3",
-    "examples": "https://observablehq.com/@d3/gallery",
-    "exampleHint": "lollipop-chart",
-    "implementationNotes": "rule from zero + dot at value"
+    "name": "Lollipop"
   },
   {
     "id": 15,
-    "name": "Dumbbell",
-    "library": "plot",
-    "repository": "https://github.com/observablehq/plot",
-    "examples": "https://observablehq.com/plot/",
-    "exampleHint": "",
-    "implementationNotes": "rule between two values + endpoint dots"
+    "name": "Dumbbell"
   },
   {
     "id": 16,
-    "name": "Slope",
-    "library": "d3",
-    "repository": "https://github.com/d3/d3",
-    "examples": "https://observablehq.com/@d3/gallery",
-    "exampleHint": "slope-chart",
-    "implementationNotes": "two x positions, one line per category"
+    "name": "Slope"
   },
   {
     "id": 17,
-    "name": "Pie",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "pie-simple",
-    "implementationNotes": "pie series"
+    "name": "Pie"
   },
   {
     "id": 18,
-    "name": "Donut",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "pie-doughnut",
-    "implementationNotes": "pie with inner and outer radius"
+    "name": "Donut"
   },
   {
     "id": 19,
-    "name": "Capacity Bar",
-    "library": "tremor",
-    "repository": "https://github.com/tremorlabs/tremor",
-    "examples": "https://www.tremor.so/",
-    "exampleHint": "",
-    "implementationNotes": "single horizontal stacked bar including free capacity"
+    "name": "Capacity Bar"
   },
   {
     "id": 20,
-    "name": "Treemap",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "treemap-simple",
-    "implementationNotes": "nested children and value"
+    "name": "Treemap"
   },
   {
     "id": 21,
-    "name": "Waffle",
-    "library": "nivo",
-    "repository": "https://github.com/plouc/nivo",
-    "examples": "https://nivo.rocks/",
-    "exampleHint": "waffle",
-    "implementationNotes": "100 cells allocated by percentage"
+    "name": "Waffle"
   },
   {
     "id": 22,
-    "name": "Sunburst",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "sunburst-simple",
-    "implementationNotes": "nested children and value"
+    "name": "Sunburst"
   },
   {
     "id": 23,
-    "name": "Histogram",
-    "library": "plot",
-    "repository": "https://github.com/observablehq/plot",
-    "examples": "https://observablehq.com/plot/",
-    "exampleHint": "",
-    "implementationNotes": "bin samples, contiguous bars"
+    "name": "Histogram"
   },
   {
     "id": 24,
-    "name": "Box Plot",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "boxplot-light-velocity",
-    "implementationNotes": "five-number summary plus separate outliers"
+    "name": "Box Plot"
   },
   {
     "id": 25,
-    "name": "Violin",
-    "library": "plotly",
-    "repository": "https://github.com/plotly/plotly.js",
-    "examples": "https://plotly.com/javascript/",
-    "exampleHint": "violin",
-    "implementationNotes": "kernel density mirrored around category axis"
+    "name": "Violin"
   },
   {
     "id": 26,
-    "name": "Density",
-    "library": "plot",
-    "repository": "https://github.com/observablehq/plot",
-    "examples": "https://observablehq.com/plot/",
-    "exampleHint": "",
-    "implementationNotes": "kernel density estimate"
+    "name": "Density"
   },
   {
     "id": 27,
-    "name": "Beeswarm",
-    "library": "nivo",
-    "repository": "https://github.com/plouc/nivo",
-    "examples": "https://nivo.rocks/",
-    "exampleHint": "swarmplot",
-    "implementationNotes": "collision-aware dot layout"
+    "name": "Beeswarm"
   },
   {
     "id": 28,
-    "name": "Ridgeline",
-    "library": "d3",
-    "repository": "https://github.com/d3/d3",
-    "examples": "https://observablehq.com/@d3/gallery",
-    "exampleHint": "ridgeline-plot",
-    "implementationNotes": "offset density curves per group"
+    "name": "Ridgeline"
   },
   {
     "id": 29,
-    "name": "Scatter",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "scatter-simple",
-    "implementationNotes": "[x,y] points"
+    "name": "Scatter"
   },
   {
     "id": 30,
-    "name": "Bubble",
-    "library": "chartjs",
-    "repository": "https://github.com/chartjs/Chart.js",
-    "examples": "https://www.chartjs.org/docs/latest/",
-    "exampleHint": "bubble",
-    "implementationNotes": "[x,y,size] with radius proportional to sqrt(size)"
+    "name": "Bubble"
   },
   {
     "id": 31,
-    "name": "Correlation Matrix",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "heatmap-cartesian",
-    "implementationNotes": "compute Pearson r, diverging color scale [-1,1]"
+    "name": "Correlation Matrix"
   },
   {
     "id": 32,
-    "name": "Parallel Coordinates",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "parallel-simple",
-    "implementationNotes": "one axis per dimension"
+    "name": "Parallel Coordinates"
   },
   {
     "id": 33,
-    "name": "Progress Bar",
-    "library": "tremor",
-    "repository": "https://github.com/tremorlabs/tremor",
-    "examples": "https://www.tremor.so/",
-    "exampleHint": "",
-    "implementationNotes": "actual / target on linear track"
+    "name": "Progress Bar"
   },
   {
     "id": 34,
-    "name": "Progress Ring",
-    "library": "shadcn",
-    "repository": "https://github.com/shadcn-ui/ui",
-    "examples": "https://ui.shadcn.com/charts",
-    "exampleHint": "",
-    "implementationNotes": "SVG circle dasharray, clamp to target"
+    "name": "Progress Ring"
   },
   {
     "id": 35,
-    "name": "Activity Rings",
-    "library": "swift",
-    "repository": "https://github.com/jordibruin/Swift-Charts-Examples",
-    "examples": "https://developer.apple.com/documentation/charts",
-    "exampleHint": "",
-    "implementationNotes": "concentric SVG circles with separate targets"
+    "name": "Activity Rings"
   },
   {
     "id": 36,
-    "name": "Gauge",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "gauge-simple",
-    "implementationNotes": "gauge series with min/max"
+    "name": "Gauge"
   },
   {
     "id": 37,
-    "name": "Bullet",
-    "library": "nivo",
-    "repository": "https://github.com/plouc/nivo",
-    "examples": "https://nivo.rocks/",
-    "exampleHint": "bullet",
-    "implementationNotes": "qualitative bands, actual bar, target marker"
+    "name": "Bullet"
   },
   {
     "id": 38,
-    "name": "Liquid Fill",
-    "library": "liquid",
-    "repository": "https://github.com/ecomfe/echarts-liquidfill",
-    "examples": "https://github.com/ecomfe/echarts-liquidfill",
-    "exampleHint": "",
-    "implementationNotes": "liquidFill plugin with fraction [0,1]"
+    "name": "Liquid Fill"
   },
   {
     "id": 39,
-    "name": "Range Bar",
-    "library": "visx",
-    "repository": "https://github.com/airbnb/visx",
-    "examples": "https://airbnb.io/visx/gallery",
-    "exampleHint": "",
-    "implementationNotes": "floating bar using transparent offset plus range length"
+    "name": "Range Bar"
   },
   {
     "id": 40,
-    "name": "Error Bar",
-    "library": "plotly",
-    "repository": "https://github.com/plotly/plotly.js",
-    "examples": "https://plotly.com/javascript/",
-    "exampleHint": "error-bars",
-    "implementationNotes": "point plus lower/upper error endpoints"
+    "name": "Error Bar"
   },
   {
     "id": 41,
-    "name": "Gantt",
-    "library": "gantt",
-    "repository": "https://github.com/frappe/gantt",
-    "examples": "https://frappe.io/gantt",
-    "exampleHint": "",
-    "implementationNotes": "task start/end and category"
+    "name": "Gantt"
   },
   {
     "id": 42,
-    "name": "State Timeline",
-    "library": "tremor",
-    "repository": "https://github.com/tremorlabs/tremor",
-    "examples": "https://www.tremor.so/",
-    "exampleHint": "",
-    "implementationNotes": "rectangles by start/end and state"
+    "name": "State Timeline"
   },
   {
     "id": 43,
-    "name": "Waterfall",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "bar-waterfall",
-    "implementationNotes": "invisible baseline + positive/negative increments"
+    "name": "Waterfall"
   },
   {
     "id": 44,
-    "name": "Timeline",
-    "library": "visx",
-    "repository": "https://github.com/airbnb/visx",
-    "examples": "https://airbnb.io/visx/gallery",
-    "exampleHint": "",
-    "implementationNotes": "ordered timestamp and event labels"
+    "name": "Timeline"
   },
   {
     "id": 45,
-    "name": "Heatmap",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "heatmap-cartesian",
-    "implementationNotes": "[column,row,value] cells"
+    "name": "Heatmap"
   },
   {
     "id": 46,
-    "name": "Calendar Heatmap",
-    "library": "nivo",
-    "repository": "https://github.com/plouc/nivo",
-    "examples": "https://nivo.rocks/",
-    "exampleHint": "calendar",
-    "implementationNotes": "date/value pairs"
+    "name": "Calendar Heatmap"
   },
   {
     "id": 47,
-    "name": "2D Density",
-    "library": "d3",
-    "repository": "https://github.com/d3/d3",
-    "examples": "https://observablehq.com/@d3/gallery",
-    "exampleHint": "density-contours",
-    "implementationNotes": "kernel density contours"
+    "name": "2D Density"
   },
   {
     "id": 48,
-    "name": "Spectrogram",
-    "library": "plotly",
-    "repository": "https://github.com/plotly/plotly.js",
-    "examples": "https://plotly.com/javascript/",
-    "exampleHint": "heatmaps",
-    "implementationNotes": "STFT magnitude matrix then heatmap"
+    "name": "Spectrogram"
   },
   {
     "id": 49,
-    "name": "Sankey",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "sankey-simple",
-    "implementationNotes": "nodes and weighted links"
+    "name": "Sankey"
   },
   {
     "id": 50,
-    "name": "Funnel",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "funnel",
-    "implementationNotes": "ordered stage values"
+    "name": "Funnel"
   },
   {
     "id": 51,
-    "name": "Tree",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "tree-basic",
-    "implementationNotes": "nested children"
+    "name": "Tree"
   },
   {
     "id": 52,
-    "name": "Network",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "graph-simple",
-    "implementationNotes": "nodes and edges"
+    "name": "Network"
   },
   {
     "id": 53,
-    "name": "Chord",
-    "library": "nivo",
-    "repository": "https://github.com/plouc/nivo",
-    "examples": "https://nivo.rocks/",
-    "exampleHint": "chord",
-    "implementationNotes": "square flow matrix"
+    "name": "Chord"
   },
   {
     "id": 54,
-    "name": "Circle Packing",
-    "library": "nivo",
-    "repository": "https://github.com/plouc/nivo",
-    "examples": "https://nivo.rocks/",
-    "exampleHint": "circle-packing",
-    "implementationNotes": "hierarchy with leaf weights"
+    "name": "Circle Packing"
   },
   {
     "id": 55,
-    "name": "Radar",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "radar",
-    "implementationNotes": "normalized axes and values"
+    "name": "Radar"
   },
   {
     "id": 56,
-    "name": "Polar Bar",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "bar-polar-real-estate",
-    "implementationNotes": "bar series coordinateSystem polar"
+    "name": "Polar Bar"
   },
   {
     "id": 57,
-    "name": "Rose",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "pie-roseType",
-    "implementationNotes": "pie roseType area"
+    "name": "Rose"
   },
   {
     "id": 58,
-    "name": "Small Multiples",
-    "library": "plot",
-    "repository": "https://github.com/observablehq/plot",
-    "examples": "https://observablehq.com/plot/",
-    "exampleHint": "",
-    "implementationNotes": "facet by category with shared scales"
+    "name": "Small Multiples"
   },
   {
     "id": 59,
-    "name": "Choropleth",
-    "library": "nivo",
-    "repository": "https://github.com/plouc/nivo",
-    "examples": "https://nivo.rocks/",
-    "exampleHint": "choropleth",
-    "implementationNotes": "GeoJSON regions joined by ID with normalized metric"
+    "name": "Choropleth"
   },
   {
     "id": 60,
-    "name": "Bubble Map",
-    "library": "deck",
-    "repository": "https://github.com/visgl/deck.gl",
-    "examples": "https://deck.gl/examples",
-    "exampleHint": "",
-    "implementationNotes": "ScatterplotLayer longitude/latitude with area encoding"
+    "name": "Bubble Map"
   },
   {
     "id": 61,
-    "name": "Geographic Heatmap",
-    "library": "deck",
-    "repository": "https://github.com/visgl/deck.gl",
-    "examples": "https://deck.gl/examples",
-    "exampleHint": "",
-    "implementationNotes": "HeatmapLayer weighted coordinates"
+    "name": "Geographic Heatmap"
   },
   {
     "id": 62,
-    "name": "Flow Map",
-    "library": "deck",
-    "repository": "https://github.com/visgl/deck.gl",
-    "examples": "https://deck.gl/examples",
-    "exampleHint": "",
-    "implementationNotes": "ArcLayer source and target coordinates"
+    "name": "Flow Map"
   },
   {
     "id": 63,
-    "name": "Metric Card",
-    "library": "tremor",
-    "repository": "https://github.com/tremorlabs/tremor",
-    "examples": "https://www.tremor.so/",
-    "exampleHint": "",
-    "implementationNotes": "formatted aggregate and unit"
+    "name": "Metric Card"
   },
   {
     "id": 64,
-    "name": "KPI + Sparkline",
-    "library": "tremor",
-    "repository": "https://github.com/tremorlabs/tremor",
-    "examples": "https://www.tremor.so/",
-    "exampleHint": "",
-    "implementationNotes": "aggregate plus axis-free time series"
+    "name": "KPI + Sparkline"
   },
   {
     "id": 65,
-    "name": "Combination",
-    "library": "echarts",
-    "repository": "https://github.com/apache/echarts",
-    "examples": "https://echarts.apache.org/examples/en/index.html",
-    "exampleHint": "mix-line-bar",
-    "implementationNotes": "bar and line series on compatible scales"
+    "name": "Combination"
   },
   {
     "id": 66,
-    "name": "In-cell Charts",
-    "library": "tanstack",
-    "repository": "https://github.com/TanStack/table",
-    "examples": "https://tanstack.com/table/latest",
-    "exampleHint": "",
-    "implementationNotes": "table cell renderer with inline SVG"
+    "name": "In-cell Charts"
   }
 ]
