@@ -47,3 +47,7 @@ Web UI 设计参考知识库：设计原则、实现规范、Design Tokens 与�
 
 ## 按钮设计体系
 [设计与实现](apple/buttons/README.md) · [按钮图库](examples/buttons/index.html) · [Tokens](design-tokens/buttons.css)
+
+## 完整组件体系
+[统一组件索引](apple/component-index.md) · [63 项原生示例](examples/ui-system/index.html) · [94 项资源目录](component-sources/catalog.json) · [共享样式](design-tokens/ui-system.css)
+保留既有专题路径；资源目录为参考入口，不代表已导入第三方源码。
