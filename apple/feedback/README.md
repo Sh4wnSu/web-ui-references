@@ -1,13 +1,14 @@
 # feedback
-Apple-inspired Web design references; use system typography, neutral surfaces, semantic accent, continuous-looking corners, restrained motion and visible focus. See [gallery](../../examples/ui-system/index.html) for selected original examples, not every listed component. Upstream entries are discovery references, not verified component availability or vendored source.
+Apple 风格组件分类。统一系统字体、中性色、语义强调色、柔和圆角、克制动效及可见焦点。
+[内部示例](../../examples/ui-system/index.html#feedback)（仅覆盖部分条目）。
 
-|Component|用途|资源|
-|---|---|---|
-|Progress|进度|[applecn](https://applecn.vercel.app/docs)|
-|Spinner|加载|[applecn](https://applecn.vercel.app/docs)|
-|Status Dot|状态|Existing local design references|
-|Alert Banner|提示横幅|[shadcn](https://ui.shadcn.com/docs/components)|
-|Toast|消息|[sonner](https://sonner.emilkowal.ski/)|
-|Notification|通知|[glasscn](https://glasscn.app/docs)|
-|Meter|容量|Existing local design references|
-|Step Progress|阶段进度|Existing local design references|
+|组件|用途|
+|---|---|
+|Progress|进度|
+|Spinner|加载|
+|Status Dot|状态|
+|Alert Banner|提示横幅|
+|Toast|消息|
+|Notification|通知|
+|Meter|容量|
+|Step Progress|阶段进度|
