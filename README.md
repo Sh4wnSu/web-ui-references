@@ -33,3 +33,6 @@ Web UI 设计参考知识库：设计原则、实现规范、Design Tokens 与�
 [66 项图表实现资源索引](apple/data-visualization/source-catalog.md)
 
 [图表配色 A/B/C](apple/data-visualization/chart-colors.md) · [配色预览](examples/chart-palettes/index.html)
+
+## 导航设计体系
+[侧栏与顶部 Tab](apple/navigation/README.md) · [源码资源](apple/navigation/source-catalog.md) · [17 种交互示例](examples/navigation/index.html) · [Tokens](design-tokens/navigation.css)
