@@ -13,3 +13,4 @@
 - [Existing buttons](buttons/README.md), [tables](tables/README.md), [navigation](navigation/README.md), [capsules](capsule-controls/README.md), [charts](data-visualization/README.md)
 - [Source catalog](../component-sources/catalog.json)
 - [New gallery](../examples/ui-system/index.html)
+- [App icons](app-icons/README.md)
