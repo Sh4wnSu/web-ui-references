@@ -1,0 +1,967 @@
+{
+  "shape": "M50 1 C68 1 79 1 88 9 C97 17 99 29 99 50 C99 71 97 83 88 91 C79 99 68 99 50 99 C32 99 21 99 12 91 C3 83 1 71 1 50 C1 29 3 17 12 9 C21 1 32 1 50 1Z",
+  "variants": [
+    "flat/solid",
+    "flat/gradient",
+    "flat/pastel",
+    "flat/dark",
+    "flat/tinted",
+    "liquid-glass/clear",
+    "liquid-glass/colored",
+    "liquid-glass/layered",
+    "liquid-glass/dark",
+    "liquid-glass/frosted"
+  ],
+  "icons": [
+    {
+      "id": "dashboard",
+      "colors": [
+        "#55a8fa",
+        "#1762cf"
+      ],
+      "files": [
+        "flat/solid/dashboard.svg",
+        "flat/gradient/dashboard.svg",
+        "flat/pastel/dashboard.svg",
+        "flat/dark/dashboard.svg",
+        "flat/tinted/dashboard.svg",
+        "liquid-glass/clear/dashboard.svg",
+        "liquid-glass/colored/dashboard.svg",
+        "liquid-glass/layered/dashboard.svg",
+        "liquid-glass/dark/dashboard.svg",
+        "liquid-glass/frosted/dashboard.svg"
+      ]
+    },
+    {
+      "id": "model",
+      "colors": [
+        "#ad9af5",
+        "#6850cb"
+      ],
+      "files": [
+        "flat/solid/model.svg",
+        "flat/gradient/model.svg",
+        "flat/pastel/model.svg",
+        "flat/dark/model.svg",
+        "flat/tinted/model.svg",
+        "liquid-glass/clear/model.svg",
+        "liquid-glass/colored/model.svg",
+        "liquid-glass/layered/model.svg",
+        "liquid-glass/dark/model.svg",
+        "liquid-glass/frosted/model.svg"
+      ]
+    },
+    {
+      "id": "assistant",
+      "colors": [
+        "#71d6a1",
+        "#27976b"
+      ],
+      "files": [
+        "flat/solid/assistant.svg",
+        "flat/gradient/assistant.svg",
+        "flat/pastel/assistant.svg",
+        "flat/dark/assistant.svg",
+        "flat/tinted/assistant.svg",
+        "liquid-glass/clear/assistant.svg",
+        "liquid-glass/colored/assistant.svg",
+        "liquid-glass/layered/assistant.svg",
+        "liquid-glass/dark/assistant.svg",
+        "liquid-glass/frosted/assistant.svg"
+      ]
+    },
+    {
+      "id": "activity",
+      "colors": [
+        "#b4b7c0",
+        "#727781"
+      ],
+      "files": [
+        "flat/solid/activity.svg",
+        "flat/gradient/activity.svg",
+        "flat/pastel/activity.svg",
+        "flat/dark/activity.svg",
+        "flat/tinted/activity.svg",
+        "liquid-glass/clear/activity.svg",
+        "liquid-glass/colored/activity.svg",
+        "liquid-glass/layered/activity.svg",
+        "liquid-glass/dark/activity.svg",
+        "liquid-glass/frosted/activity.svg"
+      ]
+    },
+    {
+      "id": "chart",
+      "colors": [
+        "#ffbd70",
+        "#c56b20"
+      ],
+      "files": [
+        "flat/solid/chart.svg",
+        "flat/gradient/chart.svg",
+        "flat/pastel/chart.svg",
+        "flat/dark/chart.svg",
+        "flat/tinted/chart.svg",
+        "liquid-glass/clear/chart.svg",
+        "liquid-glass/colored/chart.svg",
+        "liquid-glass/layered/chart.svg",
+        "liquid-glass/dark/chart.svg",
+        "liquid-glass/frosted/chart.svg"
+      ]
+    },
+    {
+      "id": "terminal",
+      "colors": [
+        "#67c4c9",
+        "#288d95"
+      ],
+      "files": [
+        "flat/solid/terminal.svg",
+        "flat/gradient/terminal.svg",
+        "flat/pastel/terminal.svg",
+        "flat/dark/terminal.svg",
+        "flat/tinted/terminal.svg",
+        "liquid-glass/clear/terminal.svg",
+        "liquid-glass/colored/terminal.svg",
+        "liquid-glass/layered/terminal.svg",
+        "liquid-glass/dark/terminal.svg",
+        "liquid-glass/frosted/terminal.svg"
+      ]
+    },
+    {
+      "id": "code",
+      "colors": [
+        "#f4a3b5",
+        "#b84c70"
+      ],
+      "files": [
+        "flat/solid/code.svg",
+        "flat/gradient/code.svg",
+        "flat/pastel/code.svg",
+        "flat/dark/code.svg",
+        "flat/tinted/code.svg",
+        "liquid-glass/clear/code.svg",
+        "liquid-glass/colored/code.svg",
+        "liquid-glass/layered/code.svg",
+        "liquid-glass/dark/code.svg",
+        "liquid-glass/frosted/code.svg"
+      ]
+    },
+    {
+      "id": "folder",
+      "colors": [
+        "#55a8fa",
+        "#1762cf"
+      ],
+      "files": [
+        "flat/solid/folder.svg",
+        "flat/gradient/folder.svg",
+        "flat/pastel/folder.svg",
+        "flat/dark/folder.svg",
+        "flat/tinted/folder.svg",
+        "liquid-glass/clear/folder.svg",
+        "liquid-glass/colored/folder.svg",
+        "liquid-glass/layered/folder.svg",
+        "liquid-glass/dark/folder.svg",
+        "liquid-glass/frosted/folder.svg"
+      ]
+    },
+    {
+      "id": "database",
+      "colors": [
+        "#ad9af5",
+        "#6850cb"
+      ],
+      "files": [
+        "flat/solid/database.svg",
+        "flat/gradient/database.svg",
+        "flat/pastel/database.svg",
+        "flat/dark/database.svg",
+        "flat/tinted/database.svg",
+        "liquid-glass/clear/database.svg",
+        "liquid-glass/colored/database.svg",
+        "liquid-glass/layered/database.svg",
+        "liquid-glass/dark/database.svg",
+        "liquid-glass/frosted/database.svg"
+      ]
+    },
+    {
+      "id": "cloud",
+      "colors": [
+        "#71d6a1",
+        "#27976b"
+      ],
+      "files": [
+        "flat/solid/cloud.svg",
+        "flat/gradient/cloud.svg",
+        "flat/pastel/cloud.svg",
+        "flat/dark/cloud.svg",
+        "flat/tinted/cloud.svg",
+        "liquid-glass/clear/cloud.svg",
+        "liquid-glass/colored/cloud.svg",
+        "liquid-glass/layered/cloud.svg",
+        "liquid-glass/dark/cloud.svg",
+        "liquid-glass/frosted/cloud.svg"
+      ]
+    },
+    {
+      "id": "network",
+      "colors": [
+        "#b4b7c0",
+        "#727781"
+      ],
+      "files": [
+        "flat/solid/network.svg",
+        "flat/gradient/network.svg",
+        "flat/pastel/network.svg",
+        "flat/dark/network.svg",
+        "flat/tinted/network.svg",
+        "liquid-glass/clear/network.svg",
+        "liquid-glass/colored/network.svg",
+        "liquid-glass/layered/network.svg",
+        "liquid-glass/dark/network.svg",
+        "liquid-glass/frosted/network.svg"
+      ]
+    },
+    {
+      "id": "security",
+      "colors": [
+        "#ffbd70",
+        "#c56b20"
+      ],
+      "files": [
+        "flat/solid/security.svg",
+        "flat/gradient/security.svg",
+        "flat/pastel/security.svg",
+        "flat/dark/security.svg",
+        "flat/tinted/security.svg",
+        "liquid-glass/clear/security.svg",
+        "liquid-glass/colored/security.svg",
+        "liquid-glass/layered/security.svg",
+        "liquid-glass/dark/security.svg",
+        "liquid-glass/frosted/security.svg"
+      ]
+    },
+    {
+      "id": "settings",
+      "colors": [
+        "#67c4c9",
+        "#288d95"
+      ],
+      "files": [
+        "flat/solid/settings.svg",
+        "flat/gradient/settings.svg",
+        "flat/pastel/settings.svg",
+        "flat/dark/settings.svg",
+        "flat/tinted/settings.svg",
+        "liquid-glass/clear/settings.svg",
+        "liquid-glass/colored/settings.svg",
+        "liquid-glass/layered/settings.svg",
+        "liquid-glass/dark/settings.svg",
+        "liquid-glass/frosted/settings.svg"
+      ]
+    },
+    {
+      "id": "user",
+      "colors": [
+        "#f4a3b5",
+        "#b84c70"
+      ],
+      "files": [
+        "flat/solid/user.svg",
+        "flat/gradient/user.svg",
+        "flat/pastel/user.svg",
+        "flat/dark/user.svg",
+        "flat/tinted/user.svg",
+        "liquid-glass/clear/user.svg",
+        "liquid-glass/colored/user.svg",
+        "liquid-glass/layered/user.svg",
+        "liquid-glass/dark/user.svg",
+        "liquid-glass/frosted/user.svg"
+      ]
+    },
+    {
+      "id": "message",
+      "colors": [
+        "#55a8fa",
+        "#1762cf"
+      ],
+      "files": [
+        "flat/solid/message.svg",
+        "flat/gradient/message.svg",
+        "flat/pastel/message.svg",
+        "flat/dark/message.svg",
+        "flat/tinted/message.svg",
+        "liquid-glass/clear/message.svg",
+        "liquid-glass/colored/message.svg",
+        "liquid-glass/layered/message.svg",
+        "liquid-glass/dark/message.svg",
+        "liquid-glass/frosted/message.svg"
+      ]
+    },
+    {
+      "id": "tasks",
+      "colors": [
+        "#ad9af5",
+        "#6850cb"
+      ],
+      "files": [
+        "flat/solid/tasks.svg",
+        "flat/gradient/tasks.svg",
+        "flat/pastel/tasks.svg",
+        "flat/dark/tasks.svg",
+        "flat/tinted/tasks.svg",
+        "liquid-glass/clear/tasks.svg",
+        "liquid-glass/colored/tasks.svg",
+        "liquid-glass/layered/tasks.svg",
+        "liquid-glass/dark/tasks.svg",
+        "liquid-glass/frosted/tasks.svg"
+      ]
+    },
+    {
+      "id": "calendar",
+      "colors": [
+        "#71d6a1",
+        "#27976b"
+      ],
+      "files": [
+        "flat/solid/calendar.svg",
+        "flat/gradient/calendar.svg",
+        "flat/pastel/calendar.svg",
+        "flat/dark/calendar.svg",
+        "flat/tinted/calendar.svg",
+        "liquid-glass/clear/calendar.svg",
+        "liquid-glass/colored/calendar.svg",
+        "liquid-glass/layered/calendar.svg",
+        "liquid-glass/dark/calendar.svg",
+        "liquid-glass/frosted/calendar.svg"
+      ]
+    },
+    {
+      "id": "search",
+      "colors": [
+        "#b4b7c0",
+        "#727781"
+      ],
+      "files": [
+        "flat/solid/search.svg",
+        "flat/gradient/search.svg",
+        "flat/pastel/search.svg",
+        "flat/dark/search.svg",
+        "flat/tinted/search.svg",
+        "liquid-glass/clear/search.svg",
+        "liquid-glass/colored/search.svg",
+        "liquid-glass/layered/search.svg",
+        "liquid-glass/dark/search.svg",
+        "liquid-glass/frosted/search.svg"
+      ]
+    },
+    {
+      "id": "plugin",
+      "colors": [
+        "#ffbd70",
+        "#c56b20"
+      ],
+      "files": [
+        "flat/solid/plugin.svg",
+        "flat/gradient/plugin.svg",
+        "flat/pastel/plugin.svg",
+        "flat/dark/plugin.svg",
+        "flat/tinted/plugin.svg",
+        "liquid-glass/clear/plugin.svg",
+        "liquid-glass/colored/plugin.svg",
+        "liquid-glass/layered/plugin.svg",
+        "liquid-glass/dark/plugin.svg",
+        "liquid-glass/frosted/plugin.svg"
+      ]
+    },
+    {
+      "id": "api",
+      "colors": [
+        "#67c4c9",
+        "#288d95"
+      ],
+      "files": [
+        "flat/solid/api.svg",
+        "flat/gradient/api.svg",
+        "flat/pastel/api.svg",
+        "flat/dark/api.svg",
+        "flat/tinted/api.svg",
+        "liquid-glass/clear/api.svg",
+        "liquid-glass/colored/api.svg",
+        "liquid-glass/layered/api.svg",
+        "liquid-glass/dark/api.svg",
+        "liquid-glass/frosted/api.svg"
+      ]
+    },
+    {
+      "id": "logs",
+      "colors": [
+        "#f4a3b5",
+        "#b84c70"
+      ],
+      "files": [
+        "flat/solid/logs.svg",
+        "flat/gradient/logs.svg",
+        "flat/pastel/logs.svg",
+        "flat/dark/logs.svg",
+        "flat/tinted/logs.svg",
+        "liquid-glass/clear/logs.svg",
+        "liquid-glass/colored/logs.svg",
+        "liquid-glass/layered/logs.svg",
+        "liquid-glass/dark/logs.svg",
+        "liquid-glass/frosted/logs.svg"
+      ]
+    },
+    {
+      "id": "monitor",
+      "colors": [
+        "#55a8fa",
+        "#1762cf"
+      ],
+      "files": [
+        "flat/solid/monitor.svg",
+        "flat/gradient/monitor.svg",
+        "flat/pastel/monitor.svg",
+        "flat/dark/monitor.svg",
+        "flat/tinted/monitor.svg",
+        "liquid-glass/clear/monitor.svg",
+        "liquid-glass/colored/monitor.svg",
+        "liquid-glass/layered/monitor.svg",
+        "liquid-glass/dark/monitor.svg",
+        "liquid-glass/frosted/monitor.svg"
+      ]
+    },
+    {
+      "id": "chip",
+      "colors": [
+        "#ad9af5",
+        "#6850cb"
+      ],
+      "files": [
+        "flat/solid/chip.svg",
+        "flat/gradient/chip.svg",
+        "flat/pastel/chip.svg",
+        "flat/dark/chip.svg",
+        "flat/tinted/chip.svg",
+        "liquid-glass/clear/chip.svg",
+        "liquid-glass/colored/chip.svg",
+        "liquid-glass/layered/chip.svg",
+        "liquid-glass/dark/chip.svg",
+        "liquid-glass/frosted/chip.svg"
+      ]
+    },
+    {
+      "id": "music",
+      "colors": [
+        "#71d6a1",
+        "#27976b"
+      ],
+      "files": [
+        "flat/solid/music.svg",
+        "flat/gradient/music.svg",
+        "flat/pastel/music.svg",
+        "flat/dark/music.svg",
+        "flat/tinted/music.svg",
+        "liquid-glass/clear/music.svg",
+        "liquid-glass/colored/music.svg",
+        "liquid-glass/layered/music.svg",
+        "liquid-glass/dark/music.svg",
+        "liquid-glass/frosted/music.svg"
+      ]
+    },
+    {
+      "id": "image",
+      "colors": [
+        "#b4b7c0",
+        "#727781"
+      ],
+      "files": [
+        "flat/solid/image.svg",
+        "flat/gradient/image.svg",
+        "flat/pastel/image.svg",
+        "flat/dark/image.svg",
+        "flat/tinted/image.svg",
+        "liquid-glass/clear/image.svg",
+        "liquid-glass/colored/image.svg",
+        "liquid-glass/layered/image.svg",
+        "liquid-glass/dark/image.svg",
+        "liquid-glass/frosted/image.svg"
+      ]
+    },
+    {
+      "id": "bell",
+      "colors": [
+        "#ffbd70",
+        "#c56b20"
+      ],
+      "files": [
+        "flat/solid/bell.svg",
+        "flat/gradient/bell.svg",
+        "flat/pastel/bell.svg",
+        "flat/dark/bell.svg",
+        "flat/tinted/bell.svg",
+        "liquid-glass/clear/bell.svg",
+        "liquid-glass/colored/bell.svg",
+        "liquid-glass/layered/bell.svg",
+        "liquid-glass/dark/bell.svg",
+        "liquid-glass/frosted/bell.svg"
+      ]
+    },
+    {
+      "id": "wallet",
+      "colors": [
+        "#67c4c9",
+        "#288d95"
+      ],
+      "files": [
+        "flat/solid/wallet.svg",
+        "flat/gradient/wallet.svg",
+        "flat/pastel/wallet.svg",
+        "flat/dark/wallet.svg",
+        "flat/tinted/wallet.svg",
+        "liquid-glass/clear/wallet.svg",
+        "liquid-glass/colored/wallet.svg",
+        "liquid-glass/layered/wallet.svg",
+        "liquid-glass/dark/wallet.svg",
+        "liquid-glass/frosted/wallet.svg"
+      ]
+    },
+    {
+      "id": "download",
+      "colors": [
+        "#f4a3b5",
+        "#b84c70"
+      ],
+      "files": [
+        "flat/solid/download.svg",
+        "flat/gradient/download.svg",
+        "flat/pastel/download.svg",
+        "flat/dark/download.svg",
+        "flat/tinted/download.svg",
+        "liquid-glass/clear/download.svg",
+        "liquid-glass/colored/download.svg",
+        "liquid-glass/layered/download.svg",
+        "liquid-glass/dark/download.svg",
+        "liquid-glass/frosted/download.svg"
+      ]
+    },
+    {
+      "id": "sync",
+      "colors": [
+        "#55a8fa",
+        "#1762cf"
+      ],
+      "files": [
+        "flat/solid/sync.svg",
+        "flat/gradient/sync.svg",
+        "flat/pastel/sync.svg",
+        "flat/dark/sync.svg",
+        "flat/tinted/sync.svg",
+        "liquid-glass/clear/sync.svg",
+        "liquid-glass/colored/sync.svg",
+        "liquid-glass/layered/sync.svg",
+        "liquid-glass/dark/sync.svg",
+        "liquid-glass/frosted/sync.svg"
+      ]
+    },
+    {
+      "id": "link",
+      "colors": [
+        "#ad9af5",
+        "#6850cb"
+      ],
+      "files": [
+        "flat/solid/link.svg",
+        "flat/gradient/link.svg",
+        "flat/pastel/link.svg",
+        "flat/dark/link.svg",
+        "flat/tinted/link.svg",
+        "liquid-glass/clear/link.svg",
+        "liquid-glass/colored/link.svg",
+        "liquid-glass/layered/link.svg",
+        "liquid-glass/dark/link.svg",
+        "liquid-glass/frosted/link.svg"
+      ]
+    },
+    {
+      "id": "home",
+      "colors": [
+        "#71d6a1",
+        "#27976b"
+      ],
+      "files": [
+        "flat/solid/home.svg",
+        "flat/gradient/home.svg",
+        "flat/pastel/home.svg",
+        "flat/dark/home.svg",
+        "flat/tinted/home.svg",
+        "liquid-glass/clear/home.svg",
+        "liquid-glass/colored/home.svg",
+        "liquid-glass/layered/home.svg",
+        "liquid-glass/dark/home.svg",
+        "liquid-glass/frosted/home.svg"
+      ]
+    },
+    {
+      "id": "mail",
+      "colors": [
+        "#b4b7c0",
+        "#727781"
+      ],
+      "files": [
+        "flat/solid/mail.svg",
+        "flat/gradient/mail.svg",
+        "flat/pastel/mail.svg",
+        "flat/dark/mail.svg",
+        "flat/tinted/mail.svg",
+        "liquid-glass/clear/mail.svg",
+        "liquid-glass/colored/mail.svg",
+        "liquid-glass/layered/mail.svg",
+        "liquid-glass/dark/mail.svg",
+        "liquid-glass/frosted/mail.svg"
+      ]
+    },
+    {
+      "id": "camera",
+      "colors": [
+        "#ffbd70",
+        "#c56b20"
+      ],
+      "files": [
+        "flat/solid/camera.svg",
+        "flat/gradient/camera.svg",
+        "flat/pastel/camera.svg",
+        "flat/dark/camera.svg",
+        "flat/tinted/camera.svg",
+        "liquid-glass/clear/camera.svg",
+        "liquid-glass/colored/camera.svg",
+        "liquid-glass/layered/camera.svg",
+        "liquid-glass/dark/camera.svg",
+        "liquid-glass/frosted/camera.svg"
+      ]
+    },
+    {
+      "id": "video",
+      "colors": [
+        "#67c4c9",
+        "#288d95"
+      ],
+      "files": [
+        "flat/solid/video.svg",
+        "flat/gradient/video.svg",
+        "flat/pastel/video.svg",
+        "flat/dark/video.svg",
+        "flat/tinted/video.svg",
+        "liquid-glass/clear/video.svg",
+        "liquid-glass/colored/video.svg",
+        "liquid-glass/layered/video.svg",
+        "liquid-glass/dark/video.svg",
+        "liquid-glass/frosted/video.svg"
+      ]
+    },
+    {
+      "id": "play",
+      "colors": [
+        "#f4a3b5",
+        "#b84c70"
+      ],
+      "files": [
+        "flat/solid/play.svg",
+        "flat/gradient/play.svg",
+        "flat/pastel/play.svg",
+        "flat/dark/play.svg",
+        "flat/tinted/play.svg",
+        "liquid-glass/clear/play.svg",
+        "liquid-glass/colored/play.svg",
+        "liquid-glass/layered/play.svg",
+        "liquid-glass/dark/play.svg",
+        "liquid-glass/frosted/play.svg"
+      ]
+    },
+    {
+      "id": "clock",
+      "colors": [
+        "#55a8fa",
+        "#1762cf"
+      ],
+      "files": [
+        "flat/solid/clock.svg",
+        "flat/gradient/clock.svg",
+        "flat/pastel/clock.svg",
+        "flat/dark/clock.svg",
+        "flat/tinted/clock.svg",
+        "liquid-glass/clear/clock.svg",
+        "liquid-glass/colored/clock.svg",
+        "liquid-glass/layered/clock.svg",
+        "liquid-glass/dark/clock.svg",
+        "liquid-glass/frosted/clock.svg"
+      ]
+    },
+    {
+      "id": "location",
+      "colors": [
+        "#ad9af5",
+        "#6850cb"
+      ],
+      "files": [
+        "flat/solid/location.svg",
+        "flat/gradient/location.svg",
+        "flat/pastel/location.svg",
+        "flat/dark/location.svg",
+        "flat/tinted/location.svg",
+        "liquid-glass/clear/location.svg",
+        "liquid-glass/colored/location.svg",
+        "liquid-glass/layered/location.svg",
+        "liquid-glass/dark/location.svg",
+        "liquid-glass/frosted/location.svg"
+      ]
+    },
+    {
+      "id": "lock",
+      "colors": [
+        "#71d6a1",
+        "#27976b"
+      ],
+      "files": [
+        "flat/solid/lock.svg",
+        "flat/gradient/lock.svg",
+        "flat/pastel/lock.svg",
+        "flat/dark/lock.svg",
+        "flat/tinted/lock.svg",
+        "liquid-glass/clear/lock.svg",
+        "liquid-glass/colored/lock.svg",
+        "liquid-glass/layered/lock.svg",
+        "liquid-glass/dark/lock.svg",
+        "liquid-glass/frosted/lock.svg"
+      ]
+    },
+    {
+      "id": "key",
+      "colors": [
+        "#b4b7c0",
+        "#727781"
+      ],
+      "files": [
+        "flat/solid/key.svg",
+        "flat/gradient/key.svg",
+        "flat/pastel/key.svg",
+        "flat/dark/key.svg",
+        "flat/tinted/key.svg",
+        "liquid-glass/clear/key.svg",
+        "liquid-glass/colored/key.svg",
+        "liquid-glass/layered/key.svg",
+        "liquid-glass/dark/key.svg",
+        "liquid-glass/frosted/key.svg"
+      ]
+    },
+    {
+      "id": "battery",
+      "colors": [
+        "#ffbd70",
+        "#c56b20"
+      ],
+      "files": [
+        "flat/solid/battery.svg",
+        "flat/gradient/battery.svg",
+        "flat/pastel/battery.svg",
+        "flat/dark/battery.svg",
+        "flat/tinted/battery.svg",
+        "liquid-glass/clear/battery.svg",
+        "liquid-glass/colored/battery.svg",
+        "liquid-glass/layered/battery.svg",
+        "liquid-glass/dark/battery.svg",
+        "liquid-glass/frosted/battery.svg"
+      ]
+    },
+    {
+      "id": "wifi",
+      "colors": [
+        "#67c4c9",
+        "#288d95"
+      ],
+      "files": [
+        "flat/solid/wifi.svg",
+        "flat/gradient/wifi.svg",
+        "flat/pastel/wifi.svg",
+        "flat/dark/wifi.svg",
+        "flat/tinted/wifi.svg",
+        "liquid-glass/clear/wifi.svg",
+        "liquid-glass/colored/wifi.svg",
+        "liquid-glass/layered/wifi.svg",
+        "liquid-glass/dark/wifi.svg",
+        "liquid-glass/frosted/wifi.svg"
+      ]
+    },
+    {
+      "id": "bluetooth",
+      "colors": [
+        "#f4a3b5",
+        "#b84c70"
+      ],
+      "files": [
+        "flat/solid/bluetooth.svg",
+        "flat/gradient/bluetooth.svg",
+        "flat/pastel/bluetooth.svg",
+        "flat/dark/bluetooth.svg",
+        "flat/tinted/bluetooth.svg",
+        "liquid-glass/clear/bluetooth.svg",
+        "liquid-glass/colored/bluetooth.svg",
+        "liquid-glass/layered/bluetooth.svg",
+        "liquid-glass/dark/bluetooth.svg",
+        "liquid-glass/frosted/bluetooth.svg"
+      ]
+    },
+    {
+      "id": "printer",
+      "colors": [
+        "#55a8fa",
+        "#1762cf"
+      ],
+      "files": [
+        "flat/solid/printer.svg",
+        "flat/gradient/printer.svg",
+        "flat/pastel/printer.svg",
+        "flat/dark/printer.svg",
+        "flat/tinted/printer.svg",
+        "liquid-glass/clear/printer.svg",
+        "liquid-glass/colored/printer.svg",
+        "liquid-glass/layered/printer.svg",
+        "liquid-glass/dark/printer.svg",
+        "liquid-glass/frosted/printer.svg"
+      ]
+    },
+    {
+      "id": "document",
+      "colors": [
+        "#ad9af5",
+        "#6850cb"
+      ],
+      "files": [
+        "flat/solid/document.svg",
+        "flat/gradient/document.svg",
+        "flat/pastel/document.svg",
+        "flat/dark/document.svg",
+        "flat/tinted/document.svg",
+        "liquid-glass/clear/document.svg",
+        "liquid-glass/colored/document.svg",
+        "liquid-glass/layered/document.svg",
+        "liquid-glass/dark/document.svg",
+        "liquid-glass/frosted/document.svg"
+      ]
+    },
+    {
+      "id": "book",
+      "colors": [
+        "#71d6a1",
+        "#27976b"
+      ],
+      "files": [
+        "flat/solid/book.svg",
+        "flat/gradient/book.svg",
+        "flat/pastel/book.svg",
+        "flat/dark/book.svg",
+        "flat/tinted/book.svg",
+        "liquid-glass/clear/book.svg",
+        "liquid-glass/colored/book.svg",
+        "liquid-glass/layered/book.svg",
+        "liquid-glass/dark/book.svg",
+        "liquid-glass/frosted/book.svg"
+      ]
+    },
+    {
+      "id": "heart",
+      "colors": [
+        "#b4b7c0",
+        "#727781"
+      ],
+      "files": [
+        "flat/solid/heart.svg",
+        "flat/gradient/heart.svg",
+        "flat/pastel/heart.svg",
+        "flat/dark/heart.svg",
+        "flat/tinted/heart.svg",
+        "liquid-glass/clear/heart.svg",
+        "liquid-glass/colored/heart.svg",
+        "liquid-glass/layered/heart.svg",
+        "liquid-glass/dark/heart.svg",
+        "liquid-glass/frosted/heart.svg"
+      ]
+    },
+    {
+      "id": "star",
+      "colors": [
+        "#ffbd70",
+        "#c56b20"
+      ],
+      "files": [
+        "flat/solid/star.svg",
+        "flat/gradient/star.svg",
+        "flat/pastel/star.svg",
+        "flat/dark/star.svg",
+        "flat/tinted/star.svg",
+        "liquid-glass/clear/star.svg",
+        "liquid-glass/colored/star.svg",
+        "liquid-glass/layered/star.svg",
+        "liquid-glass/dark/star.svg",
+        "liquid-glass/frosted/star.svg"
+      ]
+    },
+    {
+      "id": "trash",
+      "colors": [
+        "#67c4c9",
+        "#288d95"
+      ],
+      "files": [
+        "flat/solid/trash.svg",
+        "flat/gradient/trash.svg",
+        "flat/pastel/trash.svg",
+        "flat/dark/trash.svg",
+        "flat/tinted/trash.svg",
+        "liquid-glass/clear/trash.svg",
+        "liquid-glass/colored/trash.svg",
+        "liquid-glass/layered/trash.svg",
+        "liquid-glass/dark/trash.svg",
+        "liquid-glass/frosted/trash.svg"
+      ]
+    },
+    {
+      "id": "edit",
+      "colors": [
+        "#f4a3b5",
+        "#b84c70"
+      ],
+      "files": [
+        "flat/solid/edit.svg",
+        "flat/gradient/edit.svg",
+        "flat/pastel/edit.svg",
+        "flat/dark/edit.svg",
+        "flat/tinted/edit.svg",
+        "liquid-glass/clear/edit.svg",
+        "liquid-glass/colored/edit.svg",
+        "liquid-glass/layered/edit.svg",
+        "liquid-glass/dark/edit.svg",
+        "liquid-glass/frosted/edit.svg"
+      ]
+    },
+    {
+      "id": "share",
+      "colors": [
+        "#55a8fa",
+        "#1762cf"
+      ],
+      "files": [
+        "flat/solid/share.svg",
+        "flat/gradient/share.svg",
+        "flat/pastel/share.svg",
+        "flat/dark/share.svg",
+        "flat/tinted/share.svg",
+        "liquid-glass/clear/share.svg",
+        "liquid-glass/colored/share.svg",
+        "liquid-glass/layered/share.svg",
+        "liquid-glass/dark/share.svg",
+        "liquid-glass/frosted/share.svg"
+      ]
+    }
+  ]
+}
