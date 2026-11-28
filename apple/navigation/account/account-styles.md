@@ -1,0 +1,2 @@
+# Styles
+Minimal macOS, inset profile, floating glass, professional compact, dark workspace, subscription, text-only, icon rail. Avatar is circular; account hit area is a single continuous-corner surface including avatar, text, and disclosure icon. Hover, focus and expanded state use the same outline; never highlight only text or avatar. Use 44–56px row height, 28–36px avatar, 8–10px gap, 13–14px primary and 11–12px secondary text. Footer remains outside scrolling navigation.
