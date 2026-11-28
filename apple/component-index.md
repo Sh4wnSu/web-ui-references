@@ -14,3 +14,5 @@
 - [Source catalog](../component-sources/catalog.json)
 - [New gallery](../examples/ui-system/index.html)
 - [App icons](app-icons/README.md)
+
+- [Sidebar account](navigation/account/README.md)
