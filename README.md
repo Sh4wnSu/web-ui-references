@@ -1,4 +1,6 @@
 # Web UI References
+
+[Apple-Inspired Web UI Design Philosophy](apple/design-philosophy.md) — 10 core design principles for AI agents.
 Web UI 设计参考知识库：设计原则、实现规范、Design Tokens 与原生 Web 示例。
 
 ## Apple 风格
