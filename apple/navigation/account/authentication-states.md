@@ -1,0 +1,2 @@
+# Authentication states
+Guest: Sign in. Pending: preserve geometry, show progress and prevent duplicate submission. Signed in: avatar, name and optional plan. Expired: sign in again with explanation. Collapsed: avatar only, accessible name remains. Account switch and sign out update all views. Demo authentication is simulated, never request real credentials. Production authentication and session handling belong to the host application.
