@@ -26,3 +26,5 @@ Tab 高 32–44px，分段 30–36px，文字 13–15px，水平 padding 12–20
 [Spring 动效与侧栏动画编排](motion/README.md)
 
 [独立胶囊滑块与 Spring 动效](../capsule-controls/README.md)
+
+[侧边栏底部账号与连续圆角菜单](account/README.md)
