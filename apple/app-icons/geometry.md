@@ -1,0 +1,2 @@
+# Geometry
+All assets share the exact same symmetric cubic Bézier path in a 100×100 viewBox, with 1-unit inset. Glyphs use a 24×24 grid scaled to 56×56 and centered. This is an independent continuous-looking rounded-square approximation, not the Apple system mask or a mathematically verified G2 curve. Do not change outline between variants. [Canonical shape](../../assets/app-icons/geometry/squircle.svg).
