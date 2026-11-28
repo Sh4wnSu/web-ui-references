@@ -51,3 +51,6 @@ Web UI 设计参考知识库：设计原则、实现规范、Design Tokens 与�
 ## 完整组件体系
 [统一组件索引](apple/component-index.md) · [63 项原生示例](examples/ui-system/index.html) · [94 项组件分类目录](component-sources/catalog.json) · [共享样式](design-tokens/ui-system.css)
 保留既有专题路径；目录仅保留内部分类，不含外部项目推荐。
+
+## 方形应用图标
+[统一图标体系](apple/app-icons/README.md) · [500 SVG 素材](assets/app-icons/catalog.json) · [图标生成器](examples/app-icons/index.html)
