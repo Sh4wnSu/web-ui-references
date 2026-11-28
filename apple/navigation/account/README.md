@@ -1,0 +1,2 @@
+# Sidebar account
+Eight Apple-inspired footer styles, signed-in/out states, anchored account menu and collapsed rail. [Styles](account-styles.md) · [States](authentication-states.md) · [Menu geometry](account-menu.md) · [Motion](collapse-motion.md) · [Interactive gallery](../../../examples/sidebar-account/index.html). Original local implementation; no external dependencies.
