@@ -1,0 +1,19 @@
+{
+  "avatar": 32,
+  "rowHeight": 48,
+  "gap": 8,
+  "padding": 8,
+  "triggerRadius": 12,
+  "menuRadius": 16,
+  "menuRowRadius": 9,
+  "menuInset": 6,
+  "menuWidth": 224,
+  "sidebarWidth": 240,
+  "collapsedWidth": 60,
+  "spring": {
+    "stiffness": 380,
+    "damping": 38,
+    "mass": 1
+  },
+  "menuDuration": 200
+}
