@@ -1,0 +1,2 @@
+# Motion
+Reuse local spring presets (../../../design-tokens/spring.json). Sidebar width 240→60, professional k380 c38 m1; preserve velocity when retargeting. Fade labels before clipping; avatar remains aligned. Popup entry uses opacity and small scale from bottom-left, 180–220ms, no exaggerated bounce. Close popup before collapsing; respect reduced motion. Gallery uses native spring integration for width and CSS easing for popup.
