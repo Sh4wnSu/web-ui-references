@@ -1,0 +1,2 @@
+# Colors
+Seven paired accent palettes: blue, purple, green, gray, orange, teal, pink. Tinted variants use a common blue palette; dark uses colored glyphs. Colors are editable in the gallery, not official Apple values. Contrast has not been systematically tested.
