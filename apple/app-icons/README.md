@@ -1,0 +1,2 @@
+# Apple-inspired App Icons
+50 original functional glyphs × 10 material variants = 500 standalone SVG icons. Shared fixed outline, no external assets or dependencies. [Gallery](../../examples/app-icons/index.html) · [Catalog](../../assets/app-icons/catalog.json) · [Geometry](geometry.md) · [Flat](flat-design.md) · [Glass](liquid-glass.md) · [Colors](color-palettes.md).
