@@ -54,3 +54,6 @@ Web UI 设计参考知识库：设计原则、实现规范、Design Tokens 与�
 
 ## 方形应用图标
 [统一图标体系](apple/app-icons/README.md) · [500 SVG 素材](assets/app-icons/catalog.json) · [图标生成器](examples/app-icons/index.html)
+
+## 侧边栏账号入口
+[设计规范](apple/navigation/account/README.md) · [交互图库](examples/sidebar-account/index.html) · [Tokens](design-tokens/account.css)
