@@ -1,0 +1,2 @@
+# Glass materials
+Clear, colored, layered, dark and frosted SVG variants share the same outline. Static gradients, translucent layers and clipped edge highlights approximate glass; they do not refract or blur the actual background. Dynamic glass can use backdrop-filter with the same SVG mask, with opaque fallback. No optical simulation is claimed.
